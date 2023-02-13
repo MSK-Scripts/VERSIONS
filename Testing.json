@@ -7,13 +7,12 @@
 		]
     },
     {
-        "version": "2.0",
-        "changelogs": [
-			"- v2 1",
-			"- v2 2"
-		]
+        "version": "2.0"
     },
     {
-        "version": "1.0"
+        "version": "1.0",
+        "changelogs": [
+			"- v1 Release",
+		]
     }
 ]
