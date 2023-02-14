@@ -9,25 +9,11 @@
     "version": "2.6.2"
   },
   {
-    "version": "2.6.1"
-  },
-  {
-    "version": "2.6"
-  },
-  {
-    "version": "2.5"
-  },
-  {
-    "version": "2.4"
-  },
-  {
-    "version": "2.3"
-  },
-  {
-    "version": "2.2"
-  },
-  {
-    "version": "2.1"
+    "version": "2.6.1",
+    "changelogs": [
+			"- Fixed a small Bug with esx_addonaccount (not necessary if you don't have problems)",
+      "- No database.sql needed anymore. Items will be inserted automatically"
+		]
   },
   {
     "version": "2.0",
