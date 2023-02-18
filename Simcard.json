@@ -1,8 +1,9 @@
 [
   {
-    "version": "3.4.2",
+    "version": "3.5",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
+      "- Just updated the Update with Changelogs",
+      "- Reimplemented Quasar Smartphone"
     ]
   },
   {
