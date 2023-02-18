@@ -16,33 +16,59 @@
 		]
   },
   {
-    "version": "2.6"
+    "version": "2.6",
+    "changelogs": [
+			"- Disable PIN Feature in config"
+		]
   },
   {
-    "version": "2.5"
+    "version": "2.5",
+    "changelogs": [
+			"- Fixed creating Mainaccount",
+      "- Fixed some text labels"
+		]
   },
   {
-    "version": "2.4"
+    "version": "2.4",
+    "changelogs": [
+			"- Fixed Investment payouts"
+		]
   },
   {
-    "version": "2.3"
+    "version": "2.3",
+    "changelogs": [
+			"- Fixed Jobs and Ranks for Society Accounts"
+		]
   },
   {
-    "version": "2.2"
+    "version": "2.2",
+    "changelogs": [
+			"- Added Option for Distances",
+      "- Added Support for ESX Legacy",
+      "- Fixed Bug where you only can open the Bank at Legion Square Bank"
+		]
   },
   {
-    "version": "2.1"
+    "version": "2.1",
+    "changelogs": [
+			"- Added a new Option for Custom Banner",
+      "- NativeUI Menu is closing if not in distance",
+      "- Fixed can’t change IBAN if second Account created"
+		]
   },
   {
     "version": "2.0",
     "changelogs": [
-			"- Code rewritten"
+			"- Completly reworked the Code",
+      "- Improved performance",
+      "- Added esx_addon_account",
+      "- Added Discord Logs and much more [read the Description above]"
 		]
   },
   {
-    "version": "1.0",
+    "version": "1.1",
     "changelogs": [
-			"- Release"
+			"- Fixed change Accountnumber with Mainaccount if you already created a second Account."
 		]
   }
 ]
