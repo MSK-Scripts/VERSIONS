@@ -2,11 +2,14 @@
   {
     "version": "2.6.3",
     "changelogs": [
-			"- Just updated the Updater with Changelogs"
+			"- Added Changelogs to the VersionChecker"
 		]
   },
   {
-    "version": "2.6.2"
+    "version": "2.6.2",
+    "changelogs": [
+			"- Some Bugfixes"
+		]
   },
   {
     "version": "2.6.1",
@@ -68,7 +71,7 @@
   {
     "version": "1.1",
     "changelogs": [
-			"- Fixed change Accountnumber with Mainaccount if you already created a second Account."
+			"- Fixed change Accountnumber with Mainaccount if you already created a second Account"
 		]
   }
 ]
