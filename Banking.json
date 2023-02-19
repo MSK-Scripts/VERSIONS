@@ -1,5 +1,23 @@
 [
   {
+    "version": "3.0",
+    "changelogs": [
+			"- Completly reworked the Code",
+      "- New Database Structur (will be updated automatically. you won't lose any money!)",
+      "- Improved Performance",
+      "- Fixed Discord Webhook Logs",
+      "- Invoices",
+      "- Numpad NUI",
+      "- Transactionhistory",
+      "- Transactionhistory for Paychecks (view documentation)",
+      "- Set a reason for the transfer",
+      "- You can set you own TextUI in Config",
+      "- NativeUI will be re-opened after Deposit, Withdraw, ...",
+      "- Investment: Added chance to get or lose money",
+      "- Lots of new Events and Exports (view documentation)"
+		]
+  },
+  {
     "version": "2.6.3",
     "changelogs": [
 			"- Added Changelogs to the VersionChecker"
