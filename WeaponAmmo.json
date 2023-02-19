@@ -2,7 +2,7 @@
   {
     "version": "8.6.3",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
+      "- Added Changelogs to the VersionChecker"
     ]
   },
   {
