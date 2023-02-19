@@ -1,5 +1,11 @@
 [
   {
+    "version": "8.6.4",
+    "changelogs": [
+      "- Changed the Notifications System"
+    ]
+  },
+  {
     "version": "8.6.3",
     "changelogs": [
       "- Added Changelogs to the VersionChecker"
