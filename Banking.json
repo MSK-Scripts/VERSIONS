@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.0.2",
+    "changelogs": [
+			"- Added Custom Banner for NativeUI"
+		]
+  },
+  {
     "version": "3.0.1",
     "changelogs": [
 			"- Fixed an Error with menu.lua:448: bag argument #1 to 'gsub'"
