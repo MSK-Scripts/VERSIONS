@@ -1,5 +1,12 @@
 [
   {
+    "version": "8.6.5",
+    "changelogs": [
+      "- All Weaponnames are now automatically uppercase",
+      "- You can now change name and label from itemList (automatically database upload)"
+    ]
+  },
+  {
     "version": "8.6.4",
     "changelogs": [
       "- Changed the Notifications System"
