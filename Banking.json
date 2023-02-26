@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.1.1",
+    "changelogs": [
+			"- Added automatically database upload to server_database.lua (not encrypted)",
+      "- Added okokBilling"
+		]
+  },
+  {
     "version": "3.1",
     "changelogs": [
 			"- Improved serverside performance",
