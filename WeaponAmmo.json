@@ -1,5 +1,11 @@
 [
   {
+    "version": "8.6.6",
+    "changelogs": [
+      "- Hotfix for Error client.lua:68 (method 'upper')"
+    ]
+  },
+  {
     "version": "8.6.5",
     "changelogs": [
       "- All Weaponnames are now automatically uppercase",
