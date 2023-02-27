@@ -2,13 +2,9 @@
   {
     "version": "1.7.1",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
-    ]
-  },
-  {
-    "version": "1.0",
-    "changelogs": [
-      "- Release"
+      "- Added Changelogs in VersionChecker",
+      "- Fixed Bug that the Garage always says Vehicle already parked out",
+      "- Fixed Bug when park in the Vehicle and the Garage Job identifier is set to society"
     ]
   }
 ]
