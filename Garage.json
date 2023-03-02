@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.7.2",
+    "changelogs": [
+      "- Added Custom Banner for NativeUI",
+      "- Fixed DeleteVehicleOnServer at Impound that the old vehicle won't be deleted"
+    ]
+  },
+  {
     "version": "1.7.1",
     "changelogs": [
       "- Added Changelogs in VersionChecker",
