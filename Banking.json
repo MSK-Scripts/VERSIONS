@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.1.2",
+    "changelogs": [
+			"- Fixed an error if not using okokBilling"
+		]
+  },
+  {
     "version": "3.1.1",
     "changelogs": [
 			"- Added automatically database upload to server_database.lua (not encrypted)",
