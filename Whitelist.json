@@ -1,8 +1,12 @@
 [
   {
-    "version": "1.5.1",
+    "version": "1.6",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
+      "- Bugfixes",
+      "- Improved performance",
+      "- Added new AdminProtections",
+      "- Added Changelogs to the VersionChecker",
+      "- New method for Nametags (much better performance)",
     ]
   },
   {
