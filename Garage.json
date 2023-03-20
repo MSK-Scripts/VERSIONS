@@ -1,5 +1,20 @@
 [
   {
+    "version": "1.8",
+    "changelogs": [
+      "- Several Bugfixes",
+      "- Improved serverside performance",
+      "- Added lots of Garages",
+      "- AdvancedParking is now optional",
+      "- You can set your Default Garage in config",
+      "- You can set multiple vehicles categories for each garage/impound",
+      "- You can set the max Distance to park-in your vehicles",
+      "- You can set the view distance for PEDs and Markers",
+      "- You can deactivate the Impounds completely",
+      "- A few more things..."
+    ]
+  },
+  {
     "version": "1.7.2",
     "changelogs": [
       "- Added Custom Banner for NativeUI",
