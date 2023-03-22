@@ -1,8 +1,14 @@
 [
   {
-    "version": "1.9.2",
+    "version": "2.0",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
+      "- Several Bugfixes",
+      "- Added Custom Banner",
+      "- Added Changelogs to VersionChecker",
+      "- Added new Configs for Custom TextUIs",
+      "- Changed the Notification System",
+      "- Added Distance for NPC and Marker to the Config",
+      "- Fixed NPC issue that the NPCs don't show up sometimes"
     ]
   },
   {
