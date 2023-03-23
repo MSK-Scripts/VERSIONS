@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.9",
+    "changelogs": [
+      "- Fixed Job Garage if Config.Parking = 'all'",
+      "- Added functions for Custom TextUIs"
+    ]
+  },
+  {
     "version": "1.8",
     "changelogs": [
       "- Several Bugfixes",
