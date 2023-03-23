@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.7.6",
+    "changelogs": [
+      "- Added new Config.saveSkin (deactivated if you have skin problems on playerConnect)",
+      "- Added new Config.giveBackVest (gives the item back after put off your Vest)"
+    ]
+  },
+  {
     "version": "2.7.5",
     "changelogs": [
       "- Another Hotfix"
