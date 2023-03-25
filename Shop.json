@@ -1,8 +1,15 @@
 [
   {
-    "version": "2.3.1",
+    "version": "2.4",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
+      "- Several Bugfixes",
+      "- Changed Notification System",
+      "- Added Changelogs to VersionChecker",
+      "- Added functions for Custom TextUIs",
+      "- You can set the view distance for PEDs and Markers",
+      "- Fixed NPC issue that the NPCs don't show up sometimes",
+      "- You can now set multiple money methods to buy/sell with",
+      "- A few more things..."
     ]
   },
   {
