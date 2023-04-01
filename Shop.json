@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.5",
+    "changelogs": [
+      "- Some little Bugfixes",
+      "- Fixed that you can buy Items without a license if buyLicense = false",
+      "- Fixed add_account function",
+      "- Some edits in config.lua"
+    ]
+  },
+  {
     "version": "2.4",
     "changelogs": [
       "- Several Bugfixes",
