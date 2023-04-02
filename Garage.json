@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.0",
+    "changelogs": [
+      "- Some little Bugfixes",
+      "- Fixed that you can park-in job vehicles at public garages",
+      "- Changed that you can parkout every vehicle at Impound including job vehicles"
+    ]
+  },
+  {
     "version": "1.9",
     "changelogs": [
       "- Fixed Job Garage if Config.Parking = 'all'",
