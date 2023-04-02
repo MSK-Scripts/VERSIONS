@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.2.1",
+    "changelogs": [
+			"- Fixed critical Error with Second Accounts"
+		]
+  },
+  {
     "version": "3.2",
     "changelogs": [
 			"- Several Bugfixes",
