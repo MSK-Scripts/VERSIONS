@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.2.2",
+    "changelogs": [
+			"- Fixed Error that you can't use Banking if you created a new Account"
+		]
+  },
+  {
     "version": "3.2.1",
     "changelogs": [
 			"- Fixed critical Error with Second Accounts"
