@@ -2,7 +2,7 @@
   {
     "version": "3.2.3",
     "changelogs": [
-			"- Fixed Error with Mainaccounts that you can'\t deposit or whithdraw money"
+			"- Fixed Error with Mainaccounts that you can not deposit or whithdraw money"
 		]
   },
   {
