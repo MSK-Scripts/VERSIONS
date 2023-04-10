@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.2.3",
+    "changelogs": [
+			"- Fixed Error with Mainaccounts that you can'\t deposit or whithdraw money"
+		]
+  },
+  {
     "version": "3.2.2",
     "changelogs": [
 			"- Fixed Error that you can't use Banking if you created a new Account"
