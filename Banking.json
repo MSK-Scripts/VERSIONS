@@ -1,5 +1,14 @@
 [
   {
+    "version": "3.3",
+    "changelogs": [
+			"- Some Bugfixes",
+      "- Fixed some Bugs with SharedAccounts",
+      "- Deleted unnecessary database queries, because sharedaccounts.lua has better performance",
+      "- Changed and added some exports (few documentation for more information)"
+		]
+  },
+  {
     "version": "3.2.3",
     "changelogs": [
 			"- Fixed Error with Mainaccounts that you can not deposit or whithdraw money"
