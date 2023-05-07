@@ -4,6 +4,7 @@
     "changelogs": [
 			"- Some Bugfixes",
       "- Fixed some Bugs with SharedAccounts",
+      "- Added Dots for Numbers that it looks like 1.000 and not like 1000"
       "- Deleted unnecessary database queries, because sharedaccounts.lua has better performance",
       "- Changed and added some exports (few documentation for more information)"
 		]
