@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.3.1",
+    "changelogs": [
+			"- Fixed Society Accounts not getting updated if addon_account is activated"
+		]
+  },
+  {
     "version": "3.3",
     "changelogs": [
 			"- Some Bugfixes",
