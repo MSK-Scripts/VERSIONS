@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.8",
+    "changelogs": [
+      "- Some Bugfixes and performance improvements",
+      "- Added new Config.alreadySet (Set to false if you don't want that the Vest Skin will change if the Player has already a Vest Skin)",
+      "- Added new database table msk_armor that will replace Config.defaultSkin (Description in config.lua)"
+    ]
+  },
+  {
     "version": "2.7.6",
     "changelogs": [
       "- Added new Config.saveSkin (deactivated if you have skin problems on playerConnect)",
