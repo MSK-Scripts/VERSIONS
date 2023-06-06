@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.8.3",
+    "changelogs": [
+      "- Fixed that you don't get the item back after relog if you have full armor"
+    ]
+  },
+  {
     "version": "2.8.2",
     "changelogs": [
       "- Added new Config for jobs (If enable = true then only the specific job can use that item)"
