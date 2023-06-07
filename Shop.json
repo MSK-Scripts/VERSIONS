@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.6",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Added jobRank to items",
+      "- Changed some Events with Config.useStorage"
+    ]
+  },
+  {
     "version": "2.5",
     "changelogs": [
       "- Some little Bugfixes",
