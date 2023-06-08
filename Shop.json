@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.7",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Changed Database Structure (will be changed automatically)",
+      "- Menu opens faster if Config.useStorage = true",
+      "- Shops, that you configure in config.lua, have seperated storages if Config.useStorage = true"
+    ]
+  },
+  {
     "version": "2.6",
     "changelogs": [
       "- Some Bugfixes",
