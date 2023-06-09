@@ -1,5 +1,13 @@
 [
   {
+    "version": "3.6",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Some changes in config.lua",
+      "- Code is now Open Source"
+    ]
+  },
+  {
     "version": "3.5",
     "changelogs": [
       "- Just updated the Update with Changelogs",
