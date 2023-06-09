@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.7.1",
+    "changelogs": [
+      "- Open Client Version is now Open Source"
+    ]
+  },
+  {
     "version": "2.7",
     "changelogs": [
       "- Some Bugfixes",
