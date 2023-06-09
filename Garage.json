@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.1",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Fixed that you can park-in a car at heli garages",
+      "- Added that you can parkout a vehicles at the impound if you have a key (Config.parkoutWithKey)"
+    ]
+  },
+  {
     "version": "2.0",
     "changelogs": [
       "- Some little Bugfixes",
