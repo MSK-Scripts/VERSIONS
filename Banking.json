@@ -1,5 +1,16 @@
 [
   {
+    "version": "3.3.3",
+    "changelogs": [
+			"- Fixed some English Translations",
+      "- New Event will be triggered if SharedAccounts changes - (view documentation)",
+      "- Rewritten Investment - (Performance Improvements)",
+      "- Investment will now be executed before server restart if time if nearly over",
+      "- New Export and Callback for Investment - (view documentation)",
+      "-> Latest Version of msk_core will be needed!"
+		]
+  },
+  {
     "version": "3.3.2",
     "changelogs": [
 			"- Fixed Transactionhistory"
