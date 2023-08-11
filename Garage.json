@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.2",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Fixed Bug with Fuel and added more fuel scripts to config.lua",
+      "- Added compatibility for Jaksam Vehicle Keys",
+      "- You can add your own Vehicle Key Script to server_vehiclekeys.lua"
+    ]
+  },
+  {
     "version": "2.1",
     "changelogs": [
       "- Some Bugfixes",
