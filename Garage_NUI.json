@@ -1,0 +1,64 @@
+[
+    {
+      "version": "2.2",
+      "changelogs": [
+        "- Some Bugfixes",
+        "- Fixed Bug with Fuel and added more fuel scripts to config.lua",
+        "- Added compatibility for Jaksam Vehicle Keys",
+        "- You can add your own Vehicle Key Script to server_vehiclekeys.lua"
+      ]
+    },
+    {
+      "version": "2.1",
+      "changelogs": [
+        "- Some Bugfixes",
+        "- Fixed that you can park-in a car at heli garages",
+        "- Added that you can parkout a vehicles at the impound if you have a key (Config.parkoutWithKey)"
+      ]
+    },
+    {
+      "version": "2.0",
+      "changelogs": [
+        "- Some little Bugfixes",
+        "- Fixed that you can park-in job vehicles at public garages",
+        "- Changed that you can parkout every vehicle at Impound including job vehicles"
+      ]
+    },
+    {
+      "version": "1.9",
+      "changelogs": [
+        "- Fixed Job Garage if Config.Parking = 'all'",
+        "- Added functions for Custom TextUIs"
+      ]
+    },
+    {
+      "version": "1.8",
+      "changelogs": [
+        "- Several Bugfixes",
+        "- Improved serverside performance",
+        "- Added lots of Garages",
+        "- AdvancedParking is now optional",
+        "- You can set your Default Garage in config",
+        "- You can set multiple vehicles categories for each garage/impound",
+        "- You can set the max Distance to park-in your vehicles",
+        "- You can set the view distance for PEDs and Markers",
+        "- You can deactivate the Impounds completely",
+        "- A few more things..."
+      ]
+    },
+    {
+      "version": "1.7.2",
+      "changelogs": [
+        "- Added Custom Banner for NativeUI",
+        "- Fixed DeleteVehicleOnServer at Impound that the old vehicle won't be deleted"
+      ]
+    },
+    {
+      "version": "1.7.1",
+      "changelogs": [
+        "- Added Changelogs in VersionChecker",
+        "- Fixed Bug that the Garage always says Vehicle already parked out",
+        "- Fixed Bug when park in the Vehicle and the Garage Job identifier is set to society"
+      ]
+    }
+  ]
