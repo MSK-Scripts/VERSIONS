@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.4",
+    "changelogs": [
+			"- Added ATM Robbery",
+      "-> Latest Version of msk_core will be needed!"
+		]
+  },
+  {
     "version": "3.3.3",
     "changelogs": [
 			"- Fixed some English Translations",
