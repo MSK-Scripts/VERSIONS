@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.6.1",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Performance Improvements",
+      "- Added Timeout for the Bell",
+      "- Added new Ban Methods"
+    ]
+  },
+  {
     "version": "1.6",
     "changelogs": [
       "- Bugfixes",
