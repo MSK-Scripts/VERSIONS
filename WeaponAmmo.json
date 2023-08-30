@@ -1,5 +1,11 @@
 [
   {
+    "version": "8.7.1",
+    "changelogs": [
+      "- Added Event for my WeaponFix Snippet"
+    ]
+  },
+  {
     "version": "8.7",
     "changelogs": [
       "- Completely Unencrypted and for FREE since it was leaked anyway"
