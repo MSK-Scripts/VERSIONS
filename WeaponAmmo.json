@@ -1,5 +1,11 @@
 [
   {
+    "version": "8.7.2",
+    "changelogs": [
+      "- Added new RageMenu (https://github.com/EnteNico/ragemenu)"
+    ]
+  },
+  {
     "version": "8.7.1",
     "changelogs": [
       "- Added Event for my WeaponFix Snippet"
