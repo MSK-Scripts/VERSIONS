@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.5",
+    "changelogs": [
+			"- Fixed Error (SCRIPT ERROR: @esx_addonaccount/server/main.lua:18: table index is nil)",
+      "- Updated Documentation so please update the ESX files!!!"
+		]
+  },
+  {
     "version": "3.4",
     "changelogs": [
 			"- Added ATM Robbery",
