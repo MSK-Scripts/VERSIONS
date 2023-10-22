@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.5.2",
+    "changelogs": [
+			"- Some Bugfixes"
+		]
+  },
+  {
     "version": "3.5.1",
     "changelogs": [
 			"- Fixed Error (SCRIPT ERROR: ?:-1: attempt to index a nil value (field 'integer index'))",
