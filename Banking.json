@@ -2,7 +2,8 @@
   {
     "version": "3.5.2",
     "changelogs": [
-			"- Some Bugfixes"
+			"- Some Bugfixes",
+      "- Fixed resmon goes high up after opening the Bank or ATM Menu a few times"
 		]
   },
   {
