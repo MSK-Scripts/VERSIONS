@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.5.3",
+    "changelogs": [
+			"- Fixed NativeUI Memory Leak (resmon goes higher and higher after opening the Bank or ATM Menu a few times)"
+		]
+  },
+  {
     "version": "3.5.2",
     "changelogs": [
 			"- Some Bugfixes",
