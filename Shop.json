@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.8",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Fixed Notification",
+      "- Fixed Storage System",
+      "- Fixed NativeUI Memory Leak (resmon goes higher and higher after opening the Bank or ATM Menu a few times)"
+    ]
+  },
+  {
     "version": "2.7.1",
     "changelogs": [
       "- Open Client Version is now Open Source"
