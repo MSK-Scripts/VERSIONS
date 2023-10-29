@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.8.1",
+    "changelogs": [
+      "- Bugfixes for NativeUI Menu"
+    ]
+  },
+  {
     "version": "2.8",
     "changelogs": [
       "- Some Bugfixes",
