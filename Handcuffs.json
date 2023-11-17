@@ -2,7 +2,8 @@
   {
     "version": "1.9.1",
     "changelogs": [
-      "- Just updated the Update with Changelogs"
+      "- Updated Version Checker",
+      "- Added that you can only uncuff someone with f.e. cuff_keys if the person was cuffed with cuffs"
     ]
   },
   {
