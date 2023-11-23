@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.9.2",
+    "changelogs": [
+      "- Encrypted Version is now Open Client",
+      "- Open Client Version is now Source Code",
+      "- Fixed a Bug where you can't uncuff someone"
+    ]
+  },
+  {
     "version": "1.9.1",
     "changelogs": [
       "- Updated Version Checker",
