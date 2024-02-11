@@ -1,5 +1,13 @@
 [
   {
+    "version": "3.5.7",
+    "changelogs": [
+			"- Fixes an Error with _menuPool",
+      "- Fixed that you can insert decimal numbers",
+      "- Fixed insert IBAN on tranfers"
+		]
+  },
+  {
     "version": "3.5.6",
     "changelogs": [
 			"- Fixes an Error with _menuPool"
