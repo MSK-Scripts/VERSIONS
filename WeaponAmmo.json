@@ -1,5 +1,11 @@
 [
   {
+    "version": "8.7.3",
+    "changelogs": [
+      "- Updated Callbacks for msk_core"
+    ]
+  },
+  {
     "version": "8.7.2",
     "changelogs": [
       "- Added new RageMenu (https://github.com/EnteNico/ragemenu)"
