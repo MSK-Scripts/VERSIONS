@@ -2,7 +2,8 @@
   {
     "version": "3.5.8",
     "changelogs": [
-      "- Updated Callbacks for msk_core"
+      "- Updated Callbacks for msk_core",
+      "- Rewritten Investment"
     ]
   },
   {
