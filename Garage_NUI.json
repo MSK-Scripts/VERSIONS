@@ -2,11 +2,12 @@
   {
     "version": "3.0",
     "changelogs": [
-      "- New Design with new Features!",
+      "- New UI Design with new Features!",
       "- Added Favorite Vehicles",
       "- Added Rename Vehicle Name",
       "- Added Config.needEnoughMoney for Impound",
       "- Added new Translations",
+      "- Updated Callbacks for msk_core",
       "- You will need latest msk_core Version!"
     ]
   },  
