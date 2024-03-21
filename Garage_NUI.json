@@ -3,6 +3,7 @@
     "version": "3.0.1",
     "changelogs": [
       "- Added missing images",
+      "- Added Support for visn_are (isPlayerDead)"
       "- Fixed lagging ui and server thread hitch warning",
       "- Fixed Jaksam vehicle_keys"
     ]
