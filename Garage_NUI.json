@@ -1,5 +1,11 @@
 [ 
   {
+    "version": "3.0.2",
+    "changelogs": [
+      "- Fixed a Bug if jobs.identifier = 'society'"
+    ]
+  },
+  {
     "version": "3.0.1",
     "changelogs": [
       "- Added missing images",
