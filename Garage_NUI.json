@@ -1,5 +1,13 @@
 [ 
   {
+    "version": "3.0.1",
+    "changelogs": [
+      "- Added missing images",
+      "- Fixed lagging ui and server thread hitch warning",
+      "- Fixed Jaksam vehicle_keys"
+    ]
+  }, 
+  {
     "version": "3.0",
     "changelogs": [
       "- New UI Design with new Features!",
