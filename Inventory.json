@@ -1,8 +1,14 @@
 [
-    {
-      "version": "4.3.4",
-      "changelogs": [
-        "- Changelogs can be found in Discord"
-      ]
-    }
+  {
+    "version": "4.3.4",
+    "changelogs": [
+      "- Changelogs can be found in Discord"
+    ]
+  },
+  {
+    "version": "4.3.3",
+    "changelogs": [
+      "- Changelogs can be found in Discord"
+    ]
+  }
 ]
