@@ -1,4 +1,10 @@
-[ 
+[
+  {
+    "version": "3.0.3",
+    "changelogs": [
+      "- Fixed a Bug in server_vehiclekeys.lua with latest Version of VehicleKeyChain"
+    ]
+  }, 
   {
     "version": "3.0.2",
     "changelogs": [
