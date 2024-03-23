@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.8.5",
+    "changelogs": [
+      "- Bugfixes",
+      "- New config options"
+    ]
+  },
+  {
     "version": "2.8.4",
     "changelogs": [
       "- Updated Callbacks for msk_core"
