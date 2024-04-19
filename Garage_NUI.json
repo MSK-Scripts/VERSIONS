@@ -1,5 +1,14 @@
 [
   {
+    "version": "3.0.4",
+    "changelogs": [
+      "- Added Support for myVehicleShop (Job Vehicles)",
+      "- Fixed Garage Types on Park In",
+      "- Changed visn_are Support",
+      "- If not AdvancedParking active or not used, the vehicle will be deleted if found when Park Out on Impounds (fixed duplicate vehicles)"
+    ]
+  }, 
+  {
     "version": "3.0.3",
     "changelogs": [
       "- Fixed a Bug in server_vehiclekeys.lua with latest Version of VehicleKeyChain"
