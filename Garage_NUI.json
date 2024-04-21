@@ -1,5 +1,13 @@
 [
   {
+    "version": "3.1.1",
+    "changelogs": [
+      "- Fixed a Bug if Config.defaultTextUI is set to false",
+      "- Fixed a Bug whre you can't park in your vehicle",
+      "- Some other Bugfixes"
+    ]
+  },
+  {
     "version": "3.0.4",
     "changelogs": [
       "- Added Support for myVehicleShop (Job Vehicles)",
