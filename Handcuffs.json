@@ -1,6 +1,16 @@
 [
   {
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "changelogs": [
+      "- Completely reworked the code (Better performance)",
+      "- No SQL will be needed anymore, all saved in database.json",
+      "- New Documentation! Please look at it, old Events and Exports won't work",
+      "- Added new Animations",
+      "- Added Props for Handcuffs for Cuff and Keys for Uncuff",
+      "- Added Ankletracker were specific jobs can track a players position",
+      "- Added Headbag were the player gets a headbag and the screen will be black",
+      "- Added much more, you will find out..."
+    ]
   },
   {
     "version": "1.9.2",
