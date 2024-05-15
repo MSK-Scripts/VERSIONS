@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.1.2",
+    "changelogs": [
+      "- Fixed a Bug where you can't parkout vehicles at the Impound"
+    ]
+  },
+  {
     "version": "3.1.1",
     "changelogs": [
       "- Fixed a Bug if Config.defaultTextUI is set to false",
