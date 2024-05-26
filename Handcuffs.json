@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.0.2",
+    "changelogs": [
+      "- Fixed an Issue that causes server hitches",
+      "- Fixed that sometimes the Drag Animation don't stop",
+      "- Added tokovoip to Config.SetRadioChannel"
+    ]
+  },
+  {
     "version": "2.0.1",
     "changelogs": [
       "- Added Commands for Ankletracker and Headbag",
