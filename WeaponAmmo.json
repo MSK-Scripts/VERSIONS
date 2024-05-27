@@ -1,5 +1,12 @@
 [
   {
+    "version": "8.8.0",
+    "changelogs": [
+      "- Added new Items for Weaponcomponents",
+      "- Some other changes"
+    ]
+  },
+  {
     "version": "8.7.3",
     "changelogs": [
       "- Updated Callbacks for msk_core"
