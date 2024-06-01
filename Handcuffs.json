@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.0.3",
+    "changelogs": [
+      "- Changes on Ankletracker Blips",
+      "- Added Prefix for Ankletracker Blips"
+    ]
+  },
+  {
     "version": "2.0.2",
     "changelogs": [
       "- Fixed an Issue that causes server hitches",
