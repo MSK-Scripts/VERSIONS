@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.1",
+    "changelogs": [
+      "- Added Exports closeRadio",
+      "- Fixed Volume Slider",
+      "- Changes in VersionChecker: removed the ####",
+      "- Added more Debug prints"
+    ]
+  },
+  {
     "version": "1.0.0"
   }
 ]
