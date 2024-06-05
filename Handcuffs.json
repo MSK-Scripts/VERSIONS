@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.0.4",
+    "changelogs": [
+      "- Changes in VersionChecker: removed the ####",
+      "- Added new Event Handlers (see Documentation)"
+    ]
+  },
+  {
     "version": "2.0.3",
     "changelogs": [
       "- Changes on Ankletracker Blips",
