@@ -3,7 +3,7 @@
     "version": "2.1.1",
     "changelogs": [
       "- Added MSK.Numpad",
-      "- Added new Design for MSK.Input"
+      "- Added new Design for MSK.Input",
       "- Fixed MSK.Input",
       "- Fixed Config.customNotification"
     ]
