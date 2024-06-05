@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.1.1",
+    "changelogs": [
+      "- Added MSK.Numpad",
+      "- Added new Design for MSK.Input"
+      "- Fixed MSK.Input",
+      "- Fixed Config.customNotification"
+    ]
+  }
+  {
     "version": "2.1.0",
     "changelogs": [
       "- Changes in VersionChecker",
