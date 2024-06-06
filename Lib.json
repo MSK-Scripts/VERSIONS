@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.1.2",
+    "changelogs": [
+      "- Added new Design for Notifications",
+      "- Better performance for showCoords Command"
+    ]
+  },
+  {
     "version": "2.1.1",
     "changelogs": [
       "- Added MSK.Numpad",
