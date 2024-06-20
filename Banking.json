@@ -1,5 +1,18 @@
 [
   {
+    "version": "3.6.0",
+    "changelogs": [
+      "- Added Numpad and Input from msk_core -> Removed html folder",
+      "- Added Support for visn_are and osp_ambulance (GetIsPlayerDead)",
+      "- Added some new Translations to translations.lua",
+      "- Fixed that sometimes the NPC is not visible",
+      "- A few changes in config.lua",
+      "- Removed some unnecessary code",
+      "- Improved server performance",
+      "- Some other Bugfixes"
+    ]
+  },
+  {
     "version": "3.5.8",
     "changelogs": [
       "- Updated Callbacks for msk_core",
