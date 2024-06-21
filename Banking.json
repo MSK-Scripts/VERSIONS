@@ -1,5 +1,13 @@
 [
   {
+    "version": "3.6.1",
+    "changelogs": [
+      "- Fixed that the ATM won't open",
+      "- Removed the Animation and improved the Scenario",
+      "- Added CashProp when closing the ATM"
+    ]
+  },
+  {
     "version": "3.6.0",
     "changelogs": [
       "- Added Numpad and Input from msk_core -> Removed html folder",
