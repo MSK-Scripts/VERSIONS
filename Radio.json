@@ -1,5 +1,15 @@
 [
   {
+    "version": "1.0.2",
+    "changelogs": [
+      "- Added Support for QBCore",
+      "- Added Radio Talking Animation for pma-voice",
+      "- Fixed something with Password for channels",
+      "- Fixed that other Animations won't stop while talking on radio",
+      "- Fixed error on start wiht getChannelMembers"
+    ]
+  },
+  {
     "version": "1.0.1",
     "changelogs": [
       "- Added Exports closeRadio",
