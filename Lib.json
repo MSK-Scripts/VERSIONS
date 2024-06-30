@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.1.4",
+    "changelogs": [
+      "- Added MSK.CreateCron"
+    ]
+  },
+  {
     "version": "2.1.3",
     "changelogs": [
       "- Updated Natives",
