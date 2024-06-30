@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.1.5",
+    "changelogs": [
+      "- Added MSK.DeleteCron"
+    ]
+  },
+  {
     "version": "2.1.4",
     "changelogs": [
       "- Added MSK.CreateCron"
