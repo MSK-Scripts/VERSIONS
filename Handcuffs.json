@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.0.5",
+    "changelogs": [
+      "- Fixed an Error with Anketrackers (nil value addBlips)"
+    ]
+  },
+  {
     "version": "2.0.4",
     "changelogs": [
       "- Changes in VersionChecker: removed the ####",
