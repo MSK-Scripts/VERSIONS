@@ -1,0 +1,17 @@
+[
+  {
+    "version": "1.1.0",
+    "changelogs": [
+      "- Added Support for ox_inventory"
+    ]
+  },
+  {
+    "version": "1.0.1",
+    "changelogs": [
+      "- Some Bugfixes"
+    ]
+  },
+  {
+    "version": "1.0.0"
+  }
+]
