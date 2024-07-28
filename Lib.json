@@ -1,5 +1,16 @@
 [
   {
+    "version": "2.2.0",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Added missing exports",
+      "- Added Sync Method for MSK.Input",
+      "- Added Sync Method for MSK.Numpad",
+      "- Added MSK.ShowCoords",
+      "- Added MSK.DoesShowCoords"
+    ]
+  },
+  {
     "version": "2.1.5",
     "changelogs": [
       "- Added MSK.DeleteCron"
