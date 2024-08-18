@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.2.1",
+    "changelogs": [
+      "- Fixed Impounds"
+    ]
+  },
+  {
     "version": "3.2.0",
     "changelogs": [
       "- Added Support for Housing Garages",
