@@ -1,5 +1,15 @@
 [
   {
+    "version": "2.1.0",
+    "changelogs": [
+      "- Added Config.EnableProps",
+      "- Added Config.Props",
+      "- Added Remove Item for Ankletracker",
+      "- Added Remove Item for Headbag",
+      "- Code Optimizations"
+    ]
+  },
+  {
     "version": "2.0.5",
     "changelogs": [
       "- Fixed an Error with Anketrackers (nil value addBlips)"
