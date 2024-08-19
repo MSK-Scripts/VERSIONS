@@ -1,5 +1,15 @@
 [
   {
+    "version": "2.2.0",
+    "changelogs": [
+      "- Parts of the code reworked",
+      "- Hopefully fixed a bug where props are not deleted",
+      "- Added Command for cuff, hardcuff and uncuff",
+      "- Added suggestion: Tape to mute players",
+      "- Added Custom Prop for the Tape"
+    ]
+  },
+  {
     "version": "2.1.0",
     "changelogs": [
       "- Added Config.EnableProps",
