@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.3.1",
+    "changelogs": [
+      "- Fixed: attempt to call a nil value (field 'DelTimeout')"
+    ]
+  },
+  {
     "version": "2.3.0",
     "changelogs": [
       "- Fixed MSK.GetRandomString",
