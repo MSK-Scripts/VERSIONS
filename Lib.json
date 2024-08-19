@@ -19,7 +19,6 @@
       "- Added MSK.DoesShowCoords - (serverside)",
       "",
       "- Added MSK.DrawGenericText - (clientside & serverside)",
-      "- Added MSK.IsSpawnPointClear - (clientside & serverside)",
       "- Added MSK.GetPedVehicleSeat - (clientside & serverside)"
     ]
   },
