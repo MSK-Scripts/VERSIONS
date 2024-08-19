@@ -1,5 +1,28 @@
 [
   {
+    "version": "2.3.0",
+    "changelogs": [
+      "- Fixed MSK.GetRandomString",
+      "- Added MSK.LoadAnimDict - (clientside)",
+      "- Added MSK.LoadMode` - (clientside)",
+      "",
+      "- Added MSK.HelpNotification - (serverside)",
+      "- Added MSK.Draw3DText - (serverside)",
+      "- Added MSK.Progressbar - (serverside)",
+      "- Added MSK.ProgressStop - (serverside)",
+      "- Added MSK.Input - (serverside)",
+      "- Added MSK.CloseInput - (serverside)",
+      "- Added MSK.Numpad - (serverside)",
+      "- Added MSK.CloseNumpad - (serverside)",
+      "- Added MSK.ShowCoords - (serverside)",
+      "- Added MSK.DoesShowCoords - (serverside)",
+      "",
+      "- Added MSK.DrawGenericText - *(clientside & serverside)",
+      "- Added MSK.IsSpawnPointClear - *(clientside & serverside)",
+      "- Added MSK.GetPedVehicleSeat - *(clientside & serverside)"
+    ]
+  },
+  {
     "version": "2.2.0",
     "changelogs": [
       "- Some Bugfixes",
