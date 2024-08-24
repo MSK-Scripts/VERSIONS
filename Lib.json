@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.3.2",
+    "changelogs": [
+      "- Fixed MSK.Split",
+      "- Added MSK.StartsWith"
+    ]
+  },
+  {
     "version": "2.3.1",
     "changelogs": [
       "- Fixed: attempt to call a nil value (field 'DelTimeout')"
