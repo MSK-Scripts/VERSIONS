@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.2.1",
+    "changelogs": [
+      "- Fixed Player Commands",
+      "- Fixed Usable Items for AnkleTracker, Headbag and Tape",
+      "- Some other Bugfixes"
+    ]
+  },
+  {
     "version": "2.2.0",
     "changelogs": [
       "- Parts of the code reworked",
