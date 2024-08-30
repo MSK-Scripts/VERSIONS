@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.2.2",
+    "changelogs": [
+      "- Fixed that the removeItems doesn't work",
+      "- Added Event to Documentation for some Multichars"
+    ]
+  },
+  {
     "version": "2.2.1",
     "changelogs": [
       "- Fixed Player Commands",
