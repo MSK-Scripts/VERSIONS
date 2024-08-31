@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.4.0",
+    "changelogs": [
+      "- Fixed MSK.Split",
+      "- Added some Functions"
+    ]
+  },
+  {
     "version": "2.3.2",
     "changelogs": [
       "- Fixed MSK.Split",
