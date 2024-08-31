@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.0.1",
+    "changelogs": [
+      "- Fixed Error with Commands"
+    ]
+  },
+  {
     "version": "2.0.0",
     "changelogs": [
       "- Completely reworked the code"
