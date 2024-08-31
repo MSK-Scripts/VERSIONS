@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.4.1",
+    "changelogs": [
+      "- Fixed the Bansystem"
+    ]
+  },
+  {
     "version": "2.4.0",
     "changelogs": [
       "- Fixed MSK.Split",
