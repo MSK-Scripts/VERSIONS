@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.4.4",
+    "changelogs": [
+      "- Fixed an error if Config.Inventory = 'default'"
+    ]
+  },
+  {
     "version": "2.4.3",
     "changelogs": [
       "- Fixed MSK.HasItem"
