@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.2.3",
+    "changelogs": [
+      "- Added Config.RestrictItems",
+      "- Added new Translation ['not_allowed']",
+      "- Changed folder structure"
+    ]
+  },
+  {
     "version": "2.2.2",
     "changelogs": [
       "- Fixed that the removeItems doesn't work",
