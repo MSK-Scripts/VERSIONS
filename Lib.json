@@ -1,4 +1,9 @@
-[
+[{
+  "version": "2.4.2",
+  "changelogs": [
+    "- Fixed a bug where the player is not kicked from the server after being banned"
+  ]
+},
   {
     "version": "2.4.1",
     "changelogs": [
