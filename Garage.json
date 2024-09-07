@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.2.2",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Added compatibility for msk_vehiclekeys"
+    ]
+  },
+  {
     "version": "3.2.1",
     "changelogs": [
       "- Fixed Impounds"
