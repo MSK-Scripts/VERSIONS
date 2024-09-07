@@ -1,5 +1,14 @@
 [
     {
+        "version": "1.0.1",
+        "changelogs": [
+            "- Added new Translations",
+            "- Added that you get missing secondary keys on 'refreshKeys' Command",
+            "- Fixed a Bug for 'msk_enginetoggle' - (Vehicle Lockpick/Hotwire)",
+            "- Fixed a Bug with 'ox_inventory' and giving the key item so someone else"
+        ]
+    },
+    {
         "version": "1.0.0",
         "changelogs": [
             "- Release Version"
