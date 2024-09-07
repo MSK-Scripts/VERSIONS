@@ -1,5 +1,14 @@
 [
   {
+    "version": "3.2.3",
+    "changelogs": [
+      "- Fixed VehicleKeys for msk_vehiclekeys",
+      "- Fixed EventHandler for serverside",
+      "- Removed EventHandler from 'config.lua'",
+      "- Added EventHandler in seperate files"
+    ]
+  },
+  {
     "version": "3.2.2",
     "changelogs": [
       "- Some Bugfixes",
