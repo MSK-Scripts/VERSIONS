@@ -1,5 +1,83 @@
 [
   {
+    "version": "3.2.1",
+    "changelogs": [
+      "- Fixed Impounds"
+    ]
+  },
+  {
+    "version": "3.2.0",
+    "changelogs": [
+      "- Added Support for Housing Garages",
+      "- Added Export openGarage",
+      "- Added Export openImpound"
+    ]
+  },
+  {
+    "version": "3.1.3",
+    "changelogs": [
+      "- Fixed a Bug if warp is set to true",
+      "- Fixed a Bug where sometimes the stored value is not set in database",
+      "- Added new Event Handlers to config.lua"
+    ]
+  },
+  {
+    "version": "3.1.2",
+    "changelogs": [
+      "- Fixed a Bug where you can't parkout vehicles at the Impound"
+    ]
+  },
+  {
+    "version": "3.1.1",
+    "changelogs": [
+      "- Fixed a Bug if Config.defaultTextUI is set to false",
+      "- Fixed a Bug whre you can't park in your vehicle",
+      "- Some other Bugfixes"
+    ]
+  },
+  {
+    "version": "3.0.4",
+    "changelogs": [
+      "- Added Support for myVehicleShop (Job Vehicles)",
+      "- Fixed Garage Types on Park In",
+      "- Changed visn_are Support",
+      "- If not AdvancedParking active or not used, the vehicle will be deleted if found when Park Out on Impounds (fixed duplicate vehicles)"
+    ]
+  }, 
+  {
+    "version": "3.0.3",
+    "changelogs": [
+      "- Fixed a Bug in server_vehiclekeys.lua with latest Version of VehicleKeyChain"
+    ]
+  }, 
+  {
+    "version": "3.0.2",
+    "changelogs": [
+      "- Fixed a Bug if jobs.identifier = 'society'"
+    ]
+  },
+  {
+    "version": "3.0.1",
+    "changelogs": [
+      "- Added missing images",
+      "- Added Support for visn_are (isPlayerDead)",
+      "- Fixed lagging ui and server thread hitch warning",
+      "- Fixed Jaksam vehicle_keys"
+    ]
+  }, 
+  {
+    "version": "3.0",
+    "changelogs": [
+      "- New UI Design with new Features!",
+      "- Added Favorite Vehicles",
+      "- Added Rename Vehicle Name",
+      "- Added Config.needEnoughMoney for Impound",
+      "- Added new Translations",
+      "- Updated Callbacks for msk_core",
+      "- You will need latest msk_core Version!"
+    ]
+  },  
+  {
     "version": "2.2",
     "changelogs": [
       "- Some Bugfixes",
