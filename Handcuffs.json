@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.2.4",
+    "changelogs": [
+      "- Added function 'dragPlayer'",
+      "- Added function 'putPlayerInCar'",
+      "- Added function 'putPlayerOutOfCar'"
+    ]
+  },
+  {
     "version": "2.2.3",
     "changelogs": [
       "- Added Config.RestrictItems",
