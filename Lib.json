@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.4.5",
+    "changelogs": [
+      "- Fixed some issues with the Bansystem",
+      "- Some other stuff"
+    ]
+  },
+  {
     "version": "2.4.4",
     "changelogs": [
       "- Fixed an error if Config.Inventory = 'default'"
