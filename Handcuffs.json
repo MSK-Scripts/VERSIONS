@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.2.5",
+    "changelogs": [
+      "- Added Config.UncuffOnPlayerDied",
+      "- Added 'ESX.SetPlayerData()' on cuff, hardcuff and uncuff (ESX.PlayerData.isHandcuffed)",
+      "- Added functions 'Cuff', 'Hardcuff' and 'Uncuff'"
+    ]
+  },
+  {
     "version": "2.2.4",
     "changelogs": [
       "- Added function 'dragPlayer'",
