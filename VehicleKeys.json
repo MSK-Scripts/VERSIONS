@@ -1,5 +1,11 @@
 [
     {
+        "version": "1.0.3",
+        "changelogs": [
+            "- Fixed that vehicles that are not owned by someone but the player has a key are always closed if 'lockVehiclesFromNPCs = true'"
+        ]
+    },
+    {
         "version": "1.0.2",
         "changelogs": [
             "- Hopefully fixed a bug where sometimes on PlayerLoaded the script inserts 'null' to 'vehiclekeys.json' that causes errors"
