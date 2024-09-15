@@ -1,5 +1,12 @@
 [
   {
+    "version": "4.2.4",
+    "changelogs": [
+      "- Fixed support for vehicles_keys by Jaksam",
+      "- Fixed client crashes while lockpicking a vehicle"
+    ]
+  },
+  {
     "version": "4.2.3",
     "changelogs": [
       "- Added wasabi_carlock",
