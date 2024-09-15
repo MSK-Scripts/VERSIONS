@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.0.4",
+        "changelogs": [
+            "- Added 'Config.OnRefreshKeys'",
+            "- Added 'Config.GivePrimaryKey'",
+            "- Other, not significant, changes"
+        ]
+    },
+    {
         "version": "1.0.3",
         "changelogs": [
             "- Fixed that vehicles that are not owned by someone but the player has a key are always closed if 'lockVehiclesFromNPCs = true'"
