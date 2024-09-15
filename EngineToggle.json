@@ -1,5 +1,22 @@
 [
   {
+    "version": "4.2.3",
+    "changelogs": [
+      "- Added wasabi_carlock",
+      "- Fixed a serverside issue when installing an alarm_stage",
+      "- Fixed that the client was crashing after lockpicking a vehicle"
+    ]
+  },
+  {
+    "version": "4.2.2",
+    "changelogs": [
+      "- Added Dependency msk_core",
+      "- Added wasabi_carlock",
+      "- Changed folder structure",
+      "- Some other stuff"
+    ]
+  },
+  {
     "version": "1.0.0",
     "changelogs": [
       "- Release"
