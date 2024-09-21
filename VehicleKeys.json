@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.1.0",
+        "changelogs": [
+            "- Added 'Config.VehicleTarget' to (Un)lock a vehicle with a Target System",
+            "- Added Probability for 'lockVehiclesFromNPCs' whether a vehicle is open",
+            "- Fixed Function 'HasPlayerKeyOrIsVehicleOwner'"
+        ]
+    },
+    {
         "version": "1.0.4",
         "changelogs": [
             "- Added 'Config.OnRefreshKeys'",
