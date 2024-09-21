@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.4.6",
+    "changelogs": [
+      "- Added qs-inventory",
+      "- Other, not significant, changes"
+    ]
+  },
+  {
     "version": "2.4.5",
     "changelogs": [
       "- Fixed some issues with the Bansystem",
