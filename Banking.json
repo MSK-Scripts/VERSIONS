@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.6.2",
+    "changelogs": [
+      "- Open Client Version is now Source Version on keymaster"
+    ]
+  },
+  {
     "version": "3.6.1",
     "changelogs": [
       "- Fixed that the ATM won't open",
