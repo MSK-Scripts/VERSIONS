@@ -1,5 +1,11 @@
 [
   {
+    "version": "8.8.1",
+    "changelogs": [
+      "- Fixed Tint Colors"
+    ]
+  },
+  {
     "version": "8.8.0",
     "changelogs": [
       "- Added new Items for Weaponcomponents",
