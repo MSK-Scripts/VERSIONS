@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.2.5",
+    "changelogs": [
+      "- Fixed Export 'GetVehicleGarage'"
+    ]
+  },
+  {
     "version": "3.2.4",
     "changelogs": [
       "- You can now use 'vector4(0.0, 0.0, 0.0, 0.0)' instead of '{x = 0.0, y = 0.0, z = 0.0, h = 0.0}'",
