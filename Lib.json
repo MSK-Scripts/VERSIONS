@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.4.9",
+    "changelogs": [
+      "- Fixed an Error in the Bansystem"
+    ]
+  },
+  {
     "version": "2.4.8"
   },
   {
