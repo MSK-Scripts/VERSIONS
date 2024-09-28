@@ -1,5 +1,12 @@
 [
   {
+    "version": "4.2.6",
+    "changelogs": [
+      "- Fixed an issue with 'getIsKeyOwner()'",
+      "- Fixed an issue with AcePermissions"
+    ]
+  },
+  {
     "version": "4.2.5",
     "changelogs": [
       "- Fixed that the Vehicle Keys doesn't work correctly",
