@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.4.10",
+    "changelogs": [
+      "- Changes on MSK.SetTimeout",
+      "- Changes on MSK.LoadModel and MSK.LoadAnimDict",
+      "- Added some new function and exports"
+    ]
+  },
+  {
     "version": "2.4.9",
     "changelogs": [
       "- Fixed an Error in the Bansystem"
