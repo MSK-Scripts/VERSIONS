@@ -1,5 +1,17 @@
 [
     {
+        "version": "1.2.0",
+        "changelogs": [
+            "- Added Keyring System for ox_inventory",
+            "- Added 'Select Seat' for ox_target",
+            "- Added 'Config.AdminVehicles' -> Admins can use the Hotkey to (un)lock those vehicles",
+            "- Added new Translations in translation.lua",
+            "- Major changes on some functions/exports -> please read the documentation again and change the exports in your scripts",
+            "- Changes for better debug/error understanding",
+            "- Moved ox_inventory stuff from server/main.lua to server/ox_inventory.lua"
+        ]
+    },
+    {
         "version": "1.1.0",
         "changelogs": [
             "- Added 'Config.VehicleTarget' to (Un)lock a vehicle with a Target System",
