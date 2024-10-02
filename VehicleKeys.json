@@ -1,5 +1,12 @@
 [
     {
+        "version": "1.2.2",
+        "changelogs": [
+            "- Fixed a bug where you can't (un)lock a vehicle with ox_target",
+            "- Added 'toggleLockAdmin' function/export for clientside"
+        ]
+    },
+    {
         "version": "1.2.1",
         "changelogs": [
             "- Fixed a bug where you can't (un)lock a vehicle"
