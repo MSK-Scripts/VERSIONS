@@ -1,5 +1,14 @@
 [
     {
+        "version": "1.3.0",
+        "changelogs": [
+            "- Fixed a Bug where sometimes the script writes 'null' into the 'vehiclekeys.json'",
+            "- Finally fixed a Bug where you can't (un)lock a vehicle",
+            "- Removed `openKeyRing` function/export",
+            "- Changed Stash based Keyring System to OX Item Property based Keyring -> (Look at the installation documentation!)"
+        ]
+    },
+    {
         "version": "1.2.2",
         "changelogs": [
             "- Fixed a bug where you can't (un)lock a vehicle with ox_target",
