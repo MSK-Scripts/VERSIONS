@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.6.3",
+    "changelogs": [
+      "- Fixed Input and Numpad for latest msk_core version",
+      "- Hopefully fixed a bug where global value 'playerPINs' is nil"
+    ]
+  },
+  {
     "version": "3.6.2",
     "changelogs": [
       "- Open Client Version is now Source Version on keymaster"
