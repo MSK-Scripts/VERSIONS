@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.2.6",
+    "changelogs": [
+      "- If no vehicle images was found it will use coupe.svg",
+      "- Fixed a bug with latest update of msk_vehiclekeys"
+    ]
+  },
+  {
     "version": "3.2.5",
     "changelogs": [
       "- Fixed Export 'GetVehicleGarage'"
