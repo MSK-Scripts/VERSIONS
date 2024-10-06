@@ -1,5 +1,11 @@
 [
     {
+        "version": "0.0.2",
+        "changelogs": [
+            "- Alpha version"
+        ]
+    },
+    {
         "version": "0.0.1",
         "changelogs": [
             "- Alpha version"
