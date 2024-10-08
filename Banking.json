@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.6.4",
+    "changelogs": [
+      "- Fixed a Bug that leads to an error when creating a main bankaccount",
+      "- Fixed a Bug where the animation won't stop on ATMs if no pin was set"
+    ]
+  },
+  {
     "version": "3.6.3",
     "changelogs": [
       "- Fixed Input and Numpad for latest msk_core version",
