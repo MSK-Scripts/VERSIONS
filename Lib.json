@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.5.0",
+    "changelogs": [
+      "- Fixed that 'MSK.Input()' and 'MSK.Numpad()' does not work on older scripts",
+      "- Fixed MSK.Player -> see Documentation"
+    ]
+  },
+  {
     "version": "2.4.11",
     "changelogs": [
       "- Added MSK.Player",
