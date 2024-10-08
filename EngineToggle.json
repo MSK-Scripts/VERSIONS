@@ -1,5 +1,12 @@
 [
   {
+    "version": "4.3.0",
+    "changelogs": [
+      "- Added Blacklist for vehicles",
+      "- Added Classes to Whitelilst"
+    ]
+  },
+  {
     "version": "4.2.6",
     "changelogs": [
       "- Fixed an issue with 'getIsKeyOwner()'",
