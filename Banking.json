@@ -1,4 +1,9 @@
-[
+[{
+  "version": "3.6.5",
+  "changelogs": [
+    "- Fixed a Bug where the player has to recreate the main account if society is set to false"
+  ]
+},
   {
     "version": "3.6.4",
     "changelogs": [
