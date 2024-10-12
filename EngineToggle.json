@@ -1,5 +1,11 @@
 [
   {
+    "version": "4.3.2",
+    "changelogs": [
+      "- Fixed an Error with export msk_vehiclekeys AddKey()"
+    ]
+  },
+  {
     "version": "4.3.1",
     "changelogs": [
       "- Fixed an Error with export msk_vehiclekeys AddKey()"
