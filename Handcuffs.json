@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.2.6",
+    "changelogs": [
+      "- Removed `Config.addCuffItems`",
+      "- Added `Config.GiveCuffItemBack`",
+      "- Updated functions for latest msk_core version"
+    ]
+  },
+  {
     "version": "2.2.5",
     "changelogs": [
       "- Added Config.UncuffOnPlayerDied",
