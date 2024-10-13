@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.6.1",
+    "changelogs": [
+      "- Added missing Export for `MSK.IsAceAllowed` -> clientside",
+      "- Added missing Export for `MSK.RegisterCommand` -> clientside",
+      "- Added missing Export for `MSK.IsAceAllowed` -> serverside",
+      "- Fixed an error in `MSK.RegisterCommand` -> serverside"
+    ]
+  },
+  {
     "version": "2.6.0",
     "changelogs": [
       "- Added `MSK.Player` for serverside",
