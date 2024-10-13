@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.6.0",
+    "changelogs": [
+      "- Added `MSK.Player` for serverside",
+      "- Added `MSK.IsAceAllowed` for clientside and serverside",
+      "- Added `MSK.AddAce` for serverside",
+      "- Added `MSK.RemoveAce` for serverside",
+      "- Added `MSK.RegisterCommand` for clientside",
+      "- Changed `MSK.RegisterCommand` syntax but added backwards compatibility",
+      "- Changed Bansystem Commands to new syntax",
+      "- Changed ShowCoords Command to new syntax"
+    ]
+  },
+  {
     "version": "2.5.1",
     "changelogs": [
       "- Some changes on MSK.Player"
