@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.6.3",
+    "changelogs": [
+      "- Fixed a Bug with `MSK.RegisterCommand`",
+      "- Fixed a Bug with `MSK.IsPrincipalAceAllowed`"
+    ]
+  },
+  {
     "version": "2.6.2",
     "changelogs": [
       "- Added more options for `MSK.RegisterCommand` -> clientside",
