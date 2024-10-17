@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.6.2",
+    "changelogs": [
+      "- Added more options for `MSK.RegisterCommand` -> clientside",
+      "- Added `MSK.IsPrincipalAceAllowed` -> clientside & serverside",
+      "- Removed some old exports",
+      "- Some other changes"
+    ]
+  },
+  {
     "version": "2.6.1",
     "changelogs": [
       "- Added missing Export for `MSK.IsAceAllowed` -> clientside",
