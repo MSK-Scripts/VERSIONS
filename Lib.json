@@ -1,5 +1,15 @@
 [
   {
+    "version": "2.6.4",
+    "changelogs": [
+      "- Added `MSK.Player.coords` -> clientside",
+      "- Added `MSK.Player.heading` -> clientside",
+      "- Fixed `MSK.IsAceAllowed` -> clientside",
+      "- Fixed `MSK.IsPrincipalAceAllowed` -> clientside",
+      "- Fixed `MSK.HasItem` -> clientside & serverside"
+    ]
+  },
+  {
     "version": "2.6.3",
     "changelogs": [
       "- Fixed a Bug with `MSK.RegisterCommand`",
