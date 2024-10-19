@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.6.5",
+    "changelogs": [
+      "- Fixed a Bug with with Ace Perms in `MSK.RegisterCommand` -> serverside",
+      "- Fixed metatable parameters for `MSK.Input`, `MSK.Numpad`, `MSK.Progress` -> serverside",
+      "- Changes on `MSK.Player` for better performance with `MSK.Player.coords`"
+    ]
+  },
+  {
     "version": "2.6.4",
     "changelogs": [
       "- Added `MSK.Player.coords` -> clientside",
