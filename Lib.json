@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.6.6",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Added function `MSK.Points`"
+    ]
+  },
+  {
     "version": "2.6.5",
     "changelogs": [
       "- Fixed a Bug with with Ace Perms in `MSK.RegisterCommand` -> serverside",
