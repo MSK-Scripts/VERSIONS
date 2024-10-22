@@ -1,5 +1,13 @@
 [
   {
+    "version": "2.6.7",
+    "changelogs": [
+      "- Bugfixes for `MSK.Player` -> serverside",
+      "- Changed some Natives to `MSK.Player` -> clientside",
+      "- Changes on VersionChecker"
+    ]
+  },
+  {
     "version": "2.6.6",
     "changelogs": [
       "- Some Bugfixes",
