@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.6.8",
+    "changelogs": [
+      "- Fixed error `Execution of function reference in script host failed` on script start",
+      "- Fixed error `attempt to call a table value (field 'Request')`",
+      "- Added `MSK.Check.*functions*` -> serverside",
+      "- Added `MSK.Coords.Copy` -> clientside",
+      "- Added Admin Command for `MSK.Coords.Copy`",
+      "- Added `MSK.CoordsToString` -> shared",
+      "- Added `MSK.VectorToVector` *(vector4 to vector3)* -> shared",
+      "- Added `MSK.TableToVector` -> shared"
+    ]
+  },
+  {
     "version": "2.6.7",
     "changelogs": [
       "- Bugfixes for `MSK.Player` -> serverside",
