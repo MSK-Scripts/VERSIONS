@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.7.0",
+    "changelogs": [
+      "- Some code improvements and removing of old exports",
+      "- Added `MSK.TextUI` -> see Documentation!"
+    ]
+  },
+  {
     "version": "2.6.8",
     "changelogs": [
       "- Fixed error `Execution of function reference in script host failed` on script start",
