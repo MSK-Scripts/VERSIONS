@@ -1,5 +1,12 @@
 [
   {
+    "version": "4.3.3",
+    "changelogs": [
+      "- Added VehicleClamp by Kiminaze",
+      "- Some code improvements and removing of unnecessary code"
+    ]
+  },
+  {
     "version": "4.3.2",
     "changelogs": [
       "- Fixed an Error with export msk_vehiclekeys AddKey()"
