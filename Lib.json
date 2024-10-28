@@ -1,5 +1,14 @@
 [
   {
+    "version": "2.7.1",
+    "changelogs": [
+      "- Fixed function `MSK.GetVehicleLabelFromModel`",
+      "- Added Config Option for AdvancedNotification",
+      "- Added Config Option for HelpNotification",
+      "- Added function/export `MSK.RegisterItem` *[framework bridge]* -> serverside"
+    ]
+  },
+  {
     "version": "2.7.0",
     "changelogs": [
       "- Some code improvements and removing of old exports",
