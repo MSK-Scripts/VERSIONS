@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.3.0",
+    "changelogs": [
+      "- Some Bugfixes",
+      "- Updates some Natives"
+    ]
+  },
+  {
     "version": "2.2.6",
     "changelogs": [
       "- Removed `Config.addCuffItems`",
