@@ -1,5 +1,12 @@
 [
     {
+        "version": "1.3.3",
+        "changelogs": [
+            "- Fixed Whitelisted vehicles on clientside",
+            "- Fixed closest vehicle Notification on serverside"
+        ]
+    },
+    {
         "version": "1.3.2",
         "changelogs": [
             "- Fixed the contract item",
