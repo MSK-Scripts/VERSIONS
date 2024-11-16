@@ -1,5 +1,16 @@
 [
   {
+    "version": "2.7.3",
+    "changelogs": [
+      "- Bugfixes for MSK.RegisterItem -> serverside",
+      "- Added support for core_inventory -> (MSK.HasItem, etc.)",
+      "- Added MSK.Scaleform.FreemodeMessage -> clientside & serverside",
+      "- Added MSK.Scaleform.PopupWarning -> clientside & serverside",
+      "- Added MSK.Scaleform.BreakingNews -> clientside & serverside",
+      "- Added MSK.Scaleform.TrafficMovie -> clientside & serverside"
+    ]
+  },
+  {
     "version": "2.7.2"
   },
   {
