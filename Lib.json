@@ -1,5 +1,15 @@
 [
   {
+    "version": "2.8.0",
+    "changelogs": [
+      "- Changed folder structure",
+      "- Rewritten framework bridge",
+      "- Added 'chat:removeSuggestion' for MSK.RegisterCommand if parameter showSuggestion is set to false",
+      "- Fixed error on playerConnected on function `GetPlayerDeath`",
+      "- Fixed error with core_inventory on function `HasItem`"
+    ]
+  },
+  {
     "version": "2.7.4",
     "changelogs": [
       "- Added new Feature for 'MSK.Player'"
