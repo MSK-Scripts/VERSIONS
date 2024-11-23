@@ -1,5 +1,11 @@
 [
   {
+    "version": "4.3.4",
+    "changelogs": [
+      "- Fixed Vehicle Blacklist"
+    ]
+  },
+  {
     "version": "4.3.3",
     "changelogs": [
       "- Added VehicleClamp by Kiminaze",
