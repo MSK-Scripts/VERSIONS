@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.0.2",
+    "changelogs": [
+      "- Fixed Error: `attempt to call a nil value (method 'match')`"
+    ]
+  },
+  {
     "version": "2.0.1",
     "changelogs": [
       "- Fixed Error with Commands"
