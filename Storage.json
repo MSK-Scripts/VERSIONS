@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.2.2",
+    "changelogs": [
+      "- Fixed missing font-awesome icons (HTML)"
+    ]
+  },
+  {
     "version": "1.2.1",
     "changelogs": [
       "- Fixed Error on startup with ox_inventory (SCRIPT ERROR: @msk_storage/integration/server_integration.lua:10: attempt to call a nil value (global 'registerStash'))"
