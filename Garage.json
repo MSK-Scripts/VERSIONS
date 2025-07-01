@@ -2,7 +2,8 @@
   {
     "version": "3.2.7",
     "changelogs": [
-      "- Fixed a bug that job garages does not show up after reconnect"
+      "- Fixed a bug that job garages does not show up after reconnect",
+      "- Fixed that icons are not loading in the ui"
     ]
   },
   {
