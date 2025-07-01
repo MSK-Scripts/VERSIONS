@@ -1,5 +1,11 @@
 [
   {
+    "version": "3.2.7",
+    "changelogs": [
+      "- Fixed a bug that job garages does not show up after reconnect"
+    ]
+  },
+  {
     "version": "3.2.6",
     "changelogs": [
       "- If no vehicle images was found it will use coupe.svg",
