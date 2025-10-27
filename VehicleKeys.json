@@ -1,5 +1,12 @@
 [
     {
+        "version": "1.3.4",
+        "changelogs": [
+            "- Fixed locksmith menu won't open if 'target_system' is set to 'false' ",
+            "- Changed files (client/main.lua) "
+        ]
+    },
+    {
         "version": "1.3.3",
         "changelogs": [
             "- Fixed Whitelisted vehicles on clientside",
