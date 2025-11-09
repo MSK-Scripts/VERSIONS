@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.2.8",
+    "changelogs": [
+      "- Removed uneccessary prints like (canSee)",
+      "- Changed files [client/main.lua]",
+    ]
+  },
+  {
     "version": "3.2.7",
     "changelogs": [
       "- Fixed a bug that job garages does not show up after reconnect",
