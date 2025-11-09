@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.3.2",
+    "changelogs": [
+      "- Removed uneccessary code",
+      "- Changed files [client/main.lua, client/functions.lua]",
+    ]
+  },
+  {
     "version": "2.3.1",
     "changelogs": [
       "- Fixed headbag can be removed by using the headbag item",
