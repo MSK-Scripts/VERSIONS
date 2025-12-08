@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.2.9",
+    "changelogs": [
+      "- Fixed low performance problems (idle / near garage)",
+      "- Changed files [client/main.lua]",
+    ]
+  },
+  {
     "version": "3.2.8",
     "changelogs": [
       "- Removed uneccessary prints like (canSee)",
