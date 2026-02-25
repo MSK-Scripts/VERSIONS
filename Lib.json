@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.8.2",
+    "changelogs": [
+      "- Fixed Error with MSK.GetPlayer()"
+    ]
+  },
+  {
     "version": "2.8.0",
     "changelogs": [
       "- Changed folder structure",
