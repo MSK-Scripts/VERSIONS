@@ -1,5 +1,20 @@
 [
     {
+        "version": "1.3.6",
+        "changelogs": [
+            "- Fixed a problem with the (exchange vehicle locks) feature.",
+            "- Added model validations.",
+            "- Changed files (client/main.lua, server/functions.lua, client/menu.lua)"
+        ]
+    },
+    {
+        "version": "1.3.5",
+        "changelogs": [
+            "- Fixed a problem with the export (toggleLock), keep in mind that the docs also has been changed for the (toggleLock) export.",
+            "- Changed files (client/main.lua)"
+        ]
+    },
+    {
         "version": "1.3.4",
         "changelogs": [
             "- Fixed locksmith menu won't open if 'target_system' is set to 'false' ",

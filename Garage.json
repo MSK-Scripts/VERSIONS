@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.3.0",
+    "changelogs": [
+      "- A bug has been fixed that prevented garage NPCs from being displayed after the player joined.",
+      "- Changed files [client/main.lua]",
+    ]
+  },
+  {
     "version": "3.2.9",
     "changelogs": [
       "- Fixed low performance problems (idle / near garage)",
