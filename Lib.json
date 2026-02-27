@@ -1,5 +1,11 @@
 [
   {
+    "version": "2.8.3",
+    "changelogs": [
+      "- Added Support for Jaksam_Inventory"
+    ]
+  },
+  {
     "version": "2.8.2",
     "changelogs": [
       "- Fixed Error with MSK.GetPlayer()"
