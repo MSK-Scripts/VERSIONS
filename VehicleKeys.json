@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.3.7",
+        "changelogs": [
+            "- Added new function/export 'ChangeNumberPlate' to change the number plate on the key item.",
+            "- Added Support for Jaksam Inventory",
+            "- Some Bugfixes and code improvements"
+        ]
+    },
+    {
         "version": "1.3.6",
         "changelogs": [
             "- Fixed a problem with the (exchange vehicle locks) feature.",
