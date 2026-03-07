@@ -1,5 +1,12 @@
 [
   {
+    "version": "2.0.1",
+    "changelogs": [
+      "- Source Code was added to github, to get the newest version, download it at: https://github.com/MSK-Scripts/msk_crafting",
+      "- Fixed problems with ox_inventory and other inventories",
+    ]
+  },
+  {
     "version": "2.0",
     "changelogs": [
       "- Several Bugfixes",
