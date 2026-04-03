@@ -1,4 +1,11 @@
 [
+      {
+    "version": "1.2.3",
+    "changelogs": [
+      "- Fixed that icons are not loading in the ui",
+      "- Changed files [html/index.html]",
+    ]
+  },
   {
     "version": "1.2.2",
     "changelogs": [
