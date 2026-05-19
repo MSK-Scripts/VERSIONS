@@ -1,5 +1,23 @@
 [
     {
+        "version": "1.3.8",
+        "changelogs": [
+            "- Validate vehicle keys before saving + safe load with backup fallback",
+            "",
+            "server/encrypted.lua:",
+            "- Fixes the issue where `vehiclekeys.json` could become corrupted with `null` or invalid entries, causing the script to crash on next load.",
+            "- Added `validateVehicleKeys()` to sanitize the table before encoding — removes entries with missing/invalid `plate`, `type` or `model`",
+            "- `saveVehicleKeys()` now uses `pcall(json.encode, ...)` and refuses to overwrite the file if encoding fails or produces `null`/empty output",
+            "- Previous valid file is backed up to `vehiclekeys_backup.json` before every save",
+            "- New `loadVehicleKeys()` on resource start: tries main file → backup file → empty table, with `pcall(json.decode, ...)` to handle corrupted JSON",
+            "- Validation also runs on load, removing bad entries before the script touches them",
+            "",
+            "server/functions.lua:",
+            "- Replaced `error()` calls in `AddKey()` with `logging('error', ...) + return` so a missing model no longer leaves partial entries in memory",
+            "- Added a final type check on `plate`, `model` and `type` directly before writing to `VehicleKeys` — guarantees no `nil`/invalid data ever lands in the table"
+        ]
+    },
+    {
         "version": "1.3.7",
         "changelogs": [
             "- Added new function/export 'ChangeNumberPlate' to change the number plate on the key item.",
