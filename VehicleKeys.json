@@ -1,5 +1,12 @@
 [
     {
+        "version": "1.3.9",
+        "changelogs": [
+            "- Fixed that the server/encrypted.lua won't load after the update to 1.3.8",
+            "- Some Bugfixes and code improvements"
+        ]
+    },
+    {
         "version": "1.3.8",
         "changelogs": [
             "Added validation of vehicle keys before saving — prevents `null` or invalid entries from being written to `vehiclekeys.json`",
