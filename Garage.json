@@ -1,5 +1,11 @@
 [
   {
+    "version": "4.0.1",
+    "changelogs": [
+      "- Fixed that the vehicle props won't be set correct"
+    ]
+  },
+  {
     "version": "4.0.0",
     "changelogs": [
       "- Major Update, complete rewrite of the script",
