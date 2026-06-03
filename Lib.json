@@ -1,9 +1,17 @@
 [
   {
+    "version": "3.0.0",
+    "changelogs": [
+      "- [Major release] Rewritten whole Script with new features and better performance",
+      "- For more details see the documentation and the Changelogs on Github",
+      "- Changed files [all files]"
+    ]
+  },
+  {
     "version": "2.8.4",
     "changelogs": [
       "- Fixed that icons are not loading in the ui",
-      "- Changed files [html/index.html]",
+      "- Changed files [html/index.html]"
     ]
   },
   {
