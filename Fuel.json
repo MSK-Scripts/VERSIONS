@@ -1,5 +1,25 @@
 [
     {
+        "version": "1.1.0",
+        "changelogs": [
+            "- Server now calculates fuel/petrolcan prices serverside instead of trusting client-sent values (prevents free refueling exploit)",
+            "- Validate added fuel against current/max fuel and petrolcan durability",
+            "- Fix dead 'tank full' check (fuelAmount >= maxFuel)",
+            "- Translate the English locale block",
+            "- Add missing translation key petrolcan_not_equipped",
+            "- IsVehicle* now return proper booleans instead of array indices",
+            "- Apply `Config.DefaultFuelType` fallback for unlisted vehicles",
+            "- Guard against nil compare in SetEngineFailure",
+            "- Add serverside proximity check (IsPlayerNearVehicle) to payFuelPrice and updateFuelCan so vehicles can only be fueled when the player is actually near them (prevents spoofed remote/foreign vehicle fueling)",
+            "- Split fuel consumption config: per-vehicle fPetrolConsumptionRate now uses Config.PetrolConsumptionRate (2.0) instead of the global SetFuelConsumptionRateMultiplier value",
+            "- Validate and clamp replicated fuel/maxFuel statebag values clientside",
+            "- Stop the fueling loop correctly when the player runs out of money",
+            "- Add re-entry guard to CalculateVehicleFuel to prevent duplicate consumption loops on the same vehicle",
+            "- Round petrolcan durability to avoid float drift",
+            "- Add `Config.PetrolConsumptionRate` and `Config.MaxFuelingDistance`"
+        ]
+    },
+    {
         "version": "1.0.0",
         "changelogs": [
             "- Release Version"
