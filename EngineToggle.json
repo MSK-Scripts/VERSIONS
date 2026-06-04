@@ -1,5 +1,15 @@
 [
   {
+    "version": "4.4.0",
+    "changelogs": [
+      "- Fix engine sync via statebag handlers + optimizations",
+      "- New client/sync.lua: statebag handlers (isEngineOn, SteeringAngle, isDamaged) with resolveEntityFromBag + applyEngineState helpers",
+      "- Slim down the CVehicle pool loop (steering now synced via statebag handler, cache playerVehicle); keep only heli/plane blade logic",
+      "- Fix undefined src -> source in server getInventory (core_inventory lookup)",
+      "- Resolve Config.Framework clientside in AUTO mode"
+    ]
+  },
+  {
     "version": "4.3.4",
     "changelogs": [
       "- Fixed Vehicle Blacklist"
