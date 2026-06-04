@@ -1,8 +1,20 @@
 [
     {
+        "version": "2.0.0",
+        "changelogs": [
+            "- Storage: JSON file → MariaDB (msk_vehiclekeys_keys) with in-memory cache + write-through; schema creation & JSON import run automatically on first start",
+            "- New modules: storage.lua, inventory.lua, utils.lua — clean separation instead of a monolith; explicit load order in fxmanifest.lua",
+            "- Inventory: unified interface, now only ox_inventory + jaksam_inventory (dropped: core_inventory, qs-inventory)",
+            "- Key transfer: seller-availability & distance checks (new translations transfer_seller_unavailable, transfer_too_far)",
+            "- Fixes: playerCoords nil crash, GetClosestEntityWithPlate nil guard, cooldown memory leak",
+            "- Removed: encrypted.lua, ox_inventory.lua, vehiclekeys.json",
+            "- Breaking: v1 → v2, JSON storage & part of the inventory support are gone"
+        ]
+    },
+    {
         "version": "1.4.0",
         "changelogs": [
-            "- Fixed an issue with 'lockVehiclesFromNPCs' enabled: unowned vehicles will no longer be locked if a player has / had control of it",
+            "- Fixed an issue with 'lockVehiclesFromNPCs' enabled: unowned vehicles will no longer be locked if a player has / had control of it"
         ]
     },
     {
