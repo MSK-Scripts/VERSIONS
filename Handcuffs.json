@@ -3,7 +3,7 @@
     "version": "2.3.2",
     "changelogs": [
       "- Removed uneccessary code",
-      "- Changed files [client/main.lua, client/functions.lua]",
+      "- Changed files [client/main.lua, client/functions.lua]"
     ]
   },
   {
@@ -12,7 +12,7 @@
       "- Fixed headbag can be removed by using the headbag item",
       "- Fixed headbag can be added by using the remove item",
       "- Fixed tape can be removed by using the tape item",
-      "- Fixed tape can be added by using the tape item",
+      "- Fixed tape can be added by using the tape item"
     ]
   },
   {
