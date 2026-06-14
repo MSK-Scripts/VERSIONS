@@ -1,5 +1,13 @@
 [
   {
+    "version": "4.0.3",
+    "changelogs": [
+      "- Vehicle condition was lost on park-out (garage & impound)",
+      "- Visual deformation (dents) was dropped",
+      "- Engine/body health did not stick"
+    ]
+  },
+  {
     "version": "4.0.2",
     "changelogs": [
       "- Fixed that Impound listed no vehicles",
