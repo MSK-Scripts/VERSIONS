@@ -1,5 +1,13 @@
 [
   {
+    "version": "4.0.2",
+    "changelogs": [
+      "- Fixed that Impound listed no vehicles",
+      "- Fixed that Impounded vehicle was not removed on park-out (AdvancedParking)",
+      "- Simplified impound park-out: `impoundId` is now read directly from the impound definition"
+    ]
+  },
+  {
     "version": "4.0.1",
     "changelogs": [
       "- Fixed that the vehicle props won't be set correct"
