@@ -1,5 +1,17 @@
 [
   {
+    "version": "4.0.4",
+    "changelogs": [
+      "- Fixed that helicopter/aircraft garages showed no vehicles",
+      "- Fixed stuck mouse cursor after parking out a boat",
+      "- Fixed key-only vehicles (you have a key but don't own) not showing in the garage",
+      "- Fixed job/society vehicles showing inconsistently across garage and impound",
+      "- Fixed that one corrupt vehicle entry could empty the whole list",
+      "- Hardened park-in/park-out against vehicle/upgrade injection and type bypass",
+      "- Several UI fixes (rename dialog vs. Escape, double-open guard, marker opacity)"
+    ]
+  },
+  {
     "version": "4.0.3",
     "changelogs": [
       "- Vehicle condition was lost on park-out (garage & impound)",
