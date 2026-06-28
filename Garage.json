@@ -1,5 +1,15 @@
 [
   {
+    "version": "5.1.0",
+    "changelogs": [
+      "- Added a Job-Garages tab: set per job, via a whitelist or blacklist, which public garages that job's vehicles may be parked in/out at (with select all / deselect all)",
+      "- Added UI color customization in Settings > Colors: change the 5 brand colors with live preview and a reset button - applies to the dashboard, garage and impound UI",
+      "- Added an editable brand tag: the badge next to the dashboard title (default MSK) can now be changed in Settings > Colors",
+      "- Added per-model vehicle images: drop pictures into the vehicle_images folder (named by spawn name) to show real vehicle images instead of the class icon; toggle and format selectable in Settings > Vehicle Images, with automatic fallback to the class icon",
+      "- Fixed that job vehicles could be parked into a public garage and become unretrievable - this is now governed by the per-job garage policy"
+    ]
+  },
+  {
     "version": "5.0.0",
     "changelogs": [
       "- Added an in-game Admin Dashboard (/garageadmin, command name configurable): create, edit and delete garages & impounds, manage all settings and the permission system - live, without a restart",
