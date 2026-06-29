@@ -1,0 +1,24 @@
+[
+    {
+        "version": "3.0.0",
+        "changelogs": [
+            "- Added an in-game Admin Dashboard (/givevehadmin, command name configurable): give, spawn, delete and manage vehicles visually - the old in-game commands have been replaced by it (the server console commands stay)",
+            "- Settings, permissions and item vehicles are now stored in the database (seeded once from your config on first start) and are live-editable in the dashboard without a restart",
+            "- Added a group & permission system: 9 rights (give / job-give / spawn / delete / move / browse / items / settings / permissions); group.admin always has everything, group.user can never open the dashboard, other groups are managed via a dashboard-group whitelist",
+            "- Added a vehicle browser with server-side search & pagination, built for large servers: filter by owner / player name / plate / model / type without ever loading the whole owned_vehicles table",
+            "- Every give now checks for a duplicate plate before insert and aborts with an error message instead of creating a broken entry",
+            "- Vehicle keys are now given automatically on give/spawn and removed on delete; the key script is auto-detected (msk_vehiclekeys / VehicleKeyChain / vehicles_keys) and toggleable in Settings",
+            "- msk_garage integration (only shown when msk_garage is running): pick a target garage when giving, filter the browser by garage, and move a vehicle from one garage to another; an empty target garage uses the msk_garage default garage for the vehicle's category",
+            "- The fuel system is now selectable from a dropdown (statebag / ox_fuel / msk_fuel / LegacyFuel / qs-fuelstations / native / custom)",
+            "- Added UI color customization with live preview and an editable brand tag, plus a language switch (DE / EN)",
+            "- Switched the license to LGPL-3.0 (same as msk_core)"
+        ]
+    },
+    {
+        "version": "2.0.4",
+        "changelogs": [
+            "- Fixed Command delveh",
+            "- Added Support for msk_vehiclekeys"
+        ]
+    }
+]
