@@ -2,16 +2,12 @@
     {
         "version": "3.0.0",
         "changelogs": [
-            "- Added an in-game admin dashboard. Open it with /advehiclekeys and you can hand out or take keys, look up who owns a plate and who has a key for it, set up locksmiths, edit your whitelist, blacklist and job vehicles, change the settings and decide who else is allowed in.",
-            "- The dashboard has a proper permission system, so you can give your team access without handing them everything. group.admin can always do it all and group.user can never get in.",
-            "- Your settings live in the database now instead of only the config file. The config is imported once on the first start, and after that you change everything from the dashboard and it sticks. Three tables are created for this on their own: msk_vehiclekeys_settings, msk_vehiclekeys_permissions and msk_vehiclekeys_locksmiths.",
-            "- config.lua is now split into config/settings.lua and config/static.lua. The settings file holds everything you can also edit in the dashboard, the static file holds the code parts like the framework and the notification.",
-            "- You can write vehicle models as normal spawn names like 'police' in the whitelist, blacklist, admin and job lists now instead of hashes. Old hash entries still work.",
-            "- Added a force refresh that gives a player every missing key item back, even when you normally keep that turned off for realism.",
-            "- Added an option that makes the vehicle owner carry the key item too, if you want it stricter. It is off by default, so nothing changes unless you enable it.",
-            "- Fixed a few ways players could mess with keys they should not touch. Giving or taking keys, exchanging locks and transferring a car now check that you really own the vehicle and that the other player is standing next to you.",
-            "- Locksmith spots are managed from the dashboard now and show up right away without a restart.",
-            "- Heads up: config.lua is gone and replaced by the config folder, so give your config a quick look after you update."
+            "- Added an in-game admin dashboard (/advehiclekeys) to manage keys, plates, locksmiths, the access lists and settings, with a permission system so your team only sees what you allow.",
+            "- Settings live in the database now and are managed from the dashboard. The config gets imported once on the first start.",
+            "- Split config.lua into config/settings.lua and config/static.lua. Vehicle models in the lists can be spawn names like 'police' now, old hashes still work.",
+            "- Added a force refresh (gives back every missing key item) and an option to make the vehicle owner carry the key item too.",
+            "- Fixed a few key exploits. Handing out keys, exchanging locks and transferring a car now check that you own the vehicle and stand next to the other player.",
+            "- Heads up: config.lua is replaced by the config folder, so check your config after updating."
         ]
     },
     {
