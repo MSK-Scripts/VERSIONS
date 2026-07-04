@@ -1,5 +1,12 @@
 [
     {
+        "version": "3.1.0",
+        "changelogs": [
+            "- Added luxu_admin support for the admin dashboard. When luxu_admin is running, a player's staff group is picked up automatically, so your luxu staff can open the dashboard without setting up FiveM ace permissions.",
+            "- You can require staff to be on duty and map luxu group names to your dashboard groups in config/static.lua."
+        ]
+    },
+    {
         "version": "3.0.0",
         "changelogs": [
             "- Added an in-game admin dashboard (/advehiclekeys) to manage keys, plates, locksmiths, the access lists and settings, with a permission system so your team only sees what you allow.",
