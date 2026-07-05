@@ -1,5 +1,12 @@
 [
     {
+        "version": "3.1.1",
+        "changelogs": [
+            "- Fixed key hand-outs being broken since 3.0 for garage and shop integrations, where taking your own car out would say the vehicle is not yours and give no key. A key saved in the database but missing from your inventory is now handed back too.",
+            "- Temporary keys can now be added from the client for any vehicle, primary and secondary keys still need ownership, and the server export exports.msk_vehiclekeys:AddKey can always hand out keys."
+        ]
+    },
+    {
         "version": "3.1.0",
         "changelogs": [
             "- Added luxu_admin support for the admin dashboard. When luxu_admin is running, a player's staff group is picked up automatically, so your luxu staff can open the dashboard without setting up FiveM ace permissions.",
