@@ -1,5 +1,12 @@
 [
     {
+        "version": "3.2.0",
+        "changelogs": [
+            "- The /keyMenu and the locksmith menu now run on their own NUI in the MSK style instead of ox_context or ox_menu. Same flow as before (key categories, then your vehicles, then the actions), just as its own interface.",
+            "- nui is the new default for both menus. ox_context and ox_menu stay available as a fallback and can be switched from the dashboard Settings tab."
+        ]
+    },
+    {
         "version": "3.1.1",
         "changelogs": [
             "- Fixed key hand-outs being broken since 3.0 for garage and shop integrations, where taking your own car out would say the vehicle is not yours and give no key. A key saved in the database but missing from your inventory is now handed back too.",
