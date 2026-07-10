@@ -1,5 +1,16 @@
 [
   {
+    "version": "3.1.1",
+    "changelogs": [
+      "- Changed both menus to a namespaced API: MSK.Context.Register/Show/Update/Hide/GetOpen and the same set on MSK.Menu",
+      "- The flat names from v3.1.0 (MSK.RegisterContext, MSK.ShowMenu, ...) keep working, nothing breaks",
+      "- Changed MSK.Menu.Close to MSK.Menu.Hide (Close stays as an alias) so it matches MSK.Context.Hide",
+      "- Fixed that the Menu module exposed its internal navigation functions on the public table",
+      "- Pure Lua change, the NUI is untouched, web/dist can stay as it is",
+      "- Changed files [fxmanifest.lua, modules/Menu/client.lua, modules/Menu/server.lua]"
+    ]
+  },
+  {
     "version": "3.1.0",
     "changelogs": [
       "- Added MSK.Context - mouse driven context menu with sub menus, icons, progress bars and metadata (clientside & serverside)",
