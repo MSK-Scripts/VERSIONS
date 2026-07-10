@@ -1,5 +1,17 @@
 [
   {
+    "version": "3.1.0",
+    "changelogs": [
+      "- Added MSK.Context - mouse driven context menu with sub menus, icons, progress bars and metadata (clientside & serverside)",
+      "- Added MSK.Menu - keyboard navigated menu with side scroll values and checkboxes, player can keep walking and driving (clientside & serverside)",
+      "- Added MSK.UpdateContext and MSK.UpdateMenu to update a single option live while the menu is open",
+      "- Fixed that a nil text (e.g. a MSK.Notification call without a message) could crash the whole NUI",
+      "- The NUI was rebuilt, replace the whole web/dist folder",
+      "- For more details see the documentation and the Changelogs on Github",
+      "- Changed files [see Changelogs on Github]"
+    ]
+  },
+  {
     "version": "3.0.1",
     "changelogs": [
       "- Fixed QBCore item functions in MSK.GetPlayer (AddItem, RemoveItem, HasItem, GetItem)",
