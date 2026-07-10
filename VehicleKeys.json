@@ -1,5 +1,14 @@
 [
     {
+        "version": "3.3.0",
+        "changelogs": [
+            "- Added support for the Context Menu and the Menu from msk_core. Both menu dropdowns got the new options msk_context (mouse driven) and msk_menu (keyboard driven, you can keep moving while it is open). Needs msk_core v3.0.0 or newer.",
+            "- The keys menu now defaults to msk_menu and the locksmith to msk_context. nui, ox_context and ox_menu stay available and can be switched from the dashboard Settings tab.",
+            "- Fixed Hungarian missing from the dashboard language dropdown. The dropdown is now built from the languages that exist in translation.lua, so every translated language shows up on its own.",
+            "- The server also only accepted de and en when saving the language, so any other language was dropped on save. It now accepts any language translation.lua provides."
+        ]
+    },
+    {
         "version": "3.2.0",
         "changelogs": [
             "- The /keyMenu and the locksmith menu now run on their own NUI in the MSK style instead of ox_context or ox_menu. Same flow as before (key categories, then your vehicles, then the actions), just as its own interface.",
