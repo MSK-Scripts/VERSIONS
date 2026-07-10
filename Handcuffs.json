@@ -1,5 +1,20 @@
 [
   {
+    "version": "3.0.0",
+    "changelogs": [
+      "- Full rewrite: QBCore support next to ESX, MySQL via oxmysql instead of database.json (migrated automatically), statebags and server-side validation for every action.",
+      "- Added a real target menu for ox_target (recommended) and qb-target with state-aware, translated labels. v2 had no target options at all.",
+      "- Added an in-game admin dashboard (/handcuffadmin): live player actions, items, job restrictions, settings and a per-action permission system.",
+      "- Settings live in the database now and are managed from the dashboard. The config is imported once on the first start.",
+      "- Split config.lua into config/settings.lua and config/static.lua. The Discord webhook and the theme are editable in the dashboard.",
+      "- New toggles: no item needed to remove the headbag/tape, and keep the remove items (ankletracker key, headbag key, tape key, uncuff item) instead of consuming them.",
+      "- Default restriction items are always usable regardless of job, and uncuffing only works with the item matching how the person was cuffed.",
+      "- Items configured in the dashboard register without a restart (ESX, QBCore, ox_inventory, jaksam_inventory).",
+      "- Added an escort hint that shows the key you have bound to release a dragged person, and luxu_admin support for the dashboard access (Config.LuxuAdmin in config/static.lua).",
+      "- Heads up: config.lua is replaced by the config folder, so check your config after updating."
+    ]
+  },
+  {
     "version": "2.3.2",
     "changelogs": [
       "- Removed uneccessary code",
