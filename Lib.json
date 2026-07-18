@@ -1,5 +1,15 @@
 [
   {
+    "version": "3.1.2",
+    "changelogs": [
+      "- Rebuilt the NUI on updated dependencies (React 19, Vite 8, TypeScript 7, FontAwesome 7)",
+      "- No API or behavior change, the Lua side is untouched",
+      "- FontAwesome 7 ships only woff2, the unused .ttf fonts were removed from web/dist",
+      "- Replace fxmanifest.lua and web/dist to update",
+      "- Changed files [fxmanifest.lua, web/dist]"
+    ]
+  },
+  {
     "version": "3.1.1",
     "changelogs": [
       "- Changed both menus to a namespaced API: MSK.Context.Register/Show/Update/Hide/GetOpen and the same set on MSK.Menu",
