@@ -1,5 +1,12 @@
 [
   {
+    "version": "5.2.1",
+    "changelogs": [
+      "- Fixed a boot error on newer oxmysql versions where the resource stopped with 'Column garage cannot be null'.",
+      "- Changed files [server/main.lua]"
+    ]
+  },
+  {
     "version": "5.2.0",
     "changelogs": [
       "- Added luxu_admin support for the admin dashboard: staff groups from luxu_admin v2 (which are not FiveM ACE principals) are now recognized for dashboard access; configurable in config/static.lua via Config.LuxuAdmin (auto / on / off, optional group mapping and an on-duty requirement)",
