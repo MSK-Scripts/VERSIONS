@@ -1,5 +1,21 @@
 [
   {
+    "version": "4.5.0",
+    "changelogs": [
+      "- Security: key handout while lockpicking is now authorized serverside (removed the open addTempKey event)",
+      "- Security: the search-for-key roll now happens on the server instead of the client",
+      "- Security: owner, police and live-location alerts are now fully serverside via a validated event and can no longer be spoofed (removed ownerAlert, policeAlert, liveCoords)",
+      "- Security: the owner identifier is no longer sent to the lockpicking client",
+      "- Security: the alarm stage is validated against the config before it is saved",
+      "- Added serverside hook 'msk_enginetoggle:engineToggled' (src, netId, state)",
+      "- Performance: the heli/plane pool loop no longer writes a replicated statebag every tick",
+      "- Optimization: the DB query on vehicle enter now only runs for vehicles flagged as stolen",
+      "- Replaced asserts in exported functions with graceful returns",
+      "- Config.Debug now defaults to false",
+      "- Removed the dead serverside 'toggledEngine' trigger"
+    ]
+  },
+  {
     "version": "4.4.0",
     "changelogs": [
       "- Fix engine sync via statebag handlers + optimizations",
