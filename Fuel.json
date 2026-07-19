@@ -2,9 +2,17 @@
     {
         "version": "1.1.1",
         "changelogs": [
-            "- Relicensed the resource to LGPL-3.0-or-later",
-            "- Repository cleanup (.gitignore, license files, manifest metadata)",
-            "- Added a CHANGELOG.md and an automated GitHub release workflow"
+            "- Server-authoritative fuel: a StateBag handler now tracks the authorized fuel value per vehicle and rolls back any illegitimate increase (prevents clients from setting arbitrary fuel levels)",
+            "- GetVehicleFuel now falls back to 0.0 instead of 50.0 so a missing fuel state can no longer grant free fuel",
+            "- Added serverside rate limiting (500ms) on refillCan, payFuelPrice and updateFuelCan",
+            "- Petrolcan buy/refill now verifies serverside that the player is at a known fuel station (blocks spoofed coords and remote triggering)",
+            "- Per-vehicle-type fueling distance via Config.MaxFuelingDistance (default/heli/plane) + serverside GetMaxFuelingDistance",
+            "- New IsPlayerNearFuelStation check with Config.MaxStationDistance and Config.FuelStationZoneDistance",
+            "- Translation fallback: missing keys fall back to English, then the raw key, instead of erroring",
+            "- Config.Debug now defaults to false",
+            "- Money handling in petrolcan/refuel events unified on PayPrice",
+            "- Adjusted the wrong-fuel engine failure threshold (triggers below 500 engine health)",
+            "- Relicensed the resource to LGPL-3.0-or-later"
         ]
     },
     {
