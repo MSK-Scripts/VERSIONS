@@ -1,5 +1,16 @@
 [
   {
+    "version": "5.4.0",
+    "changelogs": [
+      "- Added a faction filter to the garage: a toggle next to the favorites filter narrows the park-out list down to the job vehicles of that garage, turning it off shows everything again; the button only appears when there actually are job vehicles",
+      "- Added a second-key badge on the vehicle card in the garage and impound: vehicles you only see because you hold a key now show 'Key from <owner name>', or a neutral 'Second key' when the name is hidden or cannot be resolved; the name can be switched off in Settings > Faction vehicles & keys (on by default) and is resolved by the new Utils.GetOwnerName in shared/utils.lua, which you can rewrite for another framework or users table",
+      "- Added an option to delete faction vehicles when their owner leaves the job (Settings > Faction vehicles & keys, off by default): every vehicle the player personally owns and that is registered on the job they left is removed for good, hooked to the serverside ESX event esx:setJob; a pure grade change does nothing and society vehicles are never touched",
+      "- Added the serverside hook msk_garage:jobVehiclesDeleted(identifier, jobName, plates) in server/handler.lua so you can clean up anything else referencing those plates",
+      "- Added Keys.RemoveAllKeys(identifier, plate), which drops the keys of a plate through the adapter of the key script you configured; the jobVehiclesDeleted hook uses it out of the box, so deleted job vehicles no longer leave orphaned keys behind. Implemented for all three supported scripts: msk_vehiclekeys and VehicleKeyChain remove the keys of all players for that plate, vehicles_keys only offers a per-owner remove and therefore leaves second-key holders alone",
+      "- Changed files [fxmanifest.lua, config/settings.lua, shared/utils.lua, shared/admin_perms.lua, server/main.lua, server/vehicles.lua, server/garages.lua, server/handler.lua, server/keys/*.lua, client/nui.lua, locales/*.lua, html/*]"
+    ]
+  },
+  {
     "version": "5.3.0",
     "changelogs": [
       "- Added an optional impound lock for AdvancedParking: with the new toggle in Settings > Impounds a vehicle can only be taken out of the impound once it is gone from the AdvancedParking table (vehicles_parking); blocked vehicles show up greyed out in the impound UI and the impound fee is no longer charged for them",
