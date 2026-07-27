@@ -1,5 +1,13 @@
 [
   {
+    "version": "5.4.1",
+    "changelogs": [
+      "- Changed the impound lock for AdvancedParking (Settings > Impounds): instead of reading AdvancedParking's vehicles_parking table, msk_garage now asks AdvancedParking itself through its serverside exports GetVehiclePosition/GetVehiclePositions, the same ones the impound list already uses for the tracking waypoint. In-game behaviour stays exactly the same",
+      "- Removed Config.AdvancedParkingTable and Config.AdvancedParkingPlateColumn from config/static.lua, there is no table or column left to configure and a renamed AdvancedParking schema can no longer break the lock",
+      "- Changed files [fxmanifest.lua, config/settings.lua, config/static.lua, config/garages.lua, config/impounds.lua, shared/utils.lua, server/impound.lua, html/*]"
+    ]
+  },
+  {
     "version": "5.4.0",
     "changelogs": [
       "- Added a faction filter to the garage: a toggle next to the favorites filter narrows the park-out list down to the job vehicles of that garage, turning it off shows everything again; the button only appears when there actually are job vehicles",
