@@ -1,5 +1,20 @@
 [
   {
+    "version": "3.2.0",
+    "changelogs": [
+      "- Added MSK.GetVehicleFromPlate(plate), finds a spawned vehicle by its plate without needing coords or a radius, client and server",
+      "- The search always runs on the server, the client asks over the callback API and gets the network id back, so no client walks its own vehicle pool",
+      "- Client side is a callback round trip and therefore blocking, call it from inside a thread",
+      "- A network id without a local handle means the vehicle exists but is not streamed in for that client",
+      "- Added MSK.GetModelFromPlate(plate), reads the model out of the framework vehicle table (ESX owned_vehicles, QBCore player_vehicles), also answers while the vehicle is parked in a garage",
+      "- Plates are now compared trimmed and upper cased on both sides of the comparison, inner spaces are kept on purpose",
+      "- Every NUI component now sits behind its own error boundary, one failing component no longer takes the whole interface down",
+      "- A failed NUI component reports to the client console with its name and comes back on the next NUI message",
+      "- Replace fxmanifest.lua, init/client.lua, the modules/Vehicle folder and web/dist to update",
+      "- Changed files [fxmanifest.lua, init/client.lua, modules/Vehicle/shared.lua, modules/Vehicle/client.lua, modules/Vehicle/server.lua, web/src/App.tsx, web/src/components/ErrorBoundary.tsx, web/dist, Readme.md]"
+    ]
+  },
+  {
     "version": "3.1.2",
     "changelogs": [
       "- Rebuilt the NUI on updated dependencies (React 19, Vite 8, TypeScript 7, FontAwesome 7)",
