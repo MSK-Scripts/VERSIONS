@@ -1,5 +1,12 @@
 [
     {
+        "version": "3.3.2",
+        "changelogs": [
+            "- Fixed admins with group.admin not being able to open the dashboard. A plain add_principal in your server.cfg only makes a player a member of the group, it does not create the matching ace object, so the check came back empty. The script now creates those ace objects itself on start for admin, for every group in Config.dashboardGroups and for every group in the permission matrix.",
+            "- Fixed the group check in the Permissions tab reporting 'not found' for brand new groups."
+        ]
+    },
+    {
         "version": "3.3.1",
         "changelogs": [
             "- Fixed the dashboard falling back to German for any language it did not have its own translation for (Hungarian). The dashboard now ships a full Hungarian translation, so picking it in the Settings tab actually shows Hungarian everywhere instead of silently rendering in German."
