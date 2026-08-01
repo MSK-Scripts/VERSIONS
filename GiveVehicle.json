@@ -1,5 +1,17 @@
 [
     {
+        "version": "3.1.0",
+        "changelogs": [
+            "- Added an Ownership dialog to the Vehicles tab: switch an existing vehicle between player owned and job/society owned without deleting and giving it again",
+            "- Society owned means the owner column holds the job name, so ESX and msk_garage treat the vehicle as a faction vehicle and every member of the job can use it",
+            "- Switching back to a player works through the online player picker or a typed identifier for offline owners",
+            "- Society vehicles now show a JOB / SOCIETY badge in the vehicle browser",
+            "- Vehicle keys follow the owner: on every ownership change the old keys are removed and a new key is given to the new owner",
+            "- Added the permission 'vehicle.owner' (Change owner). group.admin has it automatically, your own groups have to be re-saved once in the Permissions tab",
+            "- Added the server console command _setvehowner <job|player> <jobName|identifier> <plate>"
+        ]
+    },
+    {
         "version": "3.0.0",
         "changelogs": [
             "- Added an in-game Admin Dashboard (/givevehadmin, command name configurable): give, spawn, delete and manage vehicles visually - the old in-game commands have been replaced by it (the server console commands stay)",
