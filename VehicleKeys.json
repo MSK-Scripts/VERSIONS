@@ -1,5 +1,14 @@
 [
     {
+        "version": "3.3.3",
+        "changelogs": [
+            "- Fixed QBCore and Qbox staff not being able to open the admin dashboard even with correct permissions in the server.cfg. QBCore names its group principals qbcore.admin instead of group.admin and only links qbcore.god to group.admin, so everyone below god level failed the check. The script now registers its own ace object per group and accepts both spellings.",
+            "- Fixed the /adlock command being dead on QBCore for the same reason.",
+            "- Fixed the 'Access denied for command add_ace' spam on every server start. FiveM checks add_ace against the resource that runs it and no resource holds that right by default, so the ace objects were never actually created. They are registered through msk_core now and the script checks up front whether it is allowed",
+            "- Requires msk_core 3.3.0 (MSK.AddRawAce, MSK.CanAddAce). Update msk_core along with this script and make sure your server.cfg has the msk_core ace lines, e.g. add_ace resource.msk_core command.add_ace allow"
+        ]
+    },
+    {
         "version": "3.3.2",
         "changelogs": [
             "- Fixed admins with group.admin not being able to open the dashboard. A plain add_principal in your server.cfg only makes a player a member of the group, it does not create the matching ace object, so the check came back empty. The script now creates those ace objects itself on start for admin, for every group in Config.dashboardGroups and for every group in the permission matrix.",

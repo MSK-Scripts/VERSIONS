@@ -1,5 +1,15 @@
 [
   {
+    "version": "5.4.2",
+    "changelogs": [
+      "- Fixed admins not being able to open the dashboard even with the group set in the server.cfg. A plain add_principal only makes a player a member of the group, it does not create the matching ace object the check was looking for, and on QBCore the principals are named qbcore.admin instead of group.admin with only qbcore.god linked to group.admin. The script now registers its own ace object per group on start and accepts both spellings, so add_principal ... group.mod and /addpermission 1 mod both work",
+      "- Fixed the group check on the Permissions tab reporting 'not found' for brand new groups",
+      "- Fixed the 'Access denied for command add_ace' spam on every server start. FiveM checks add_ace against the resource that runs it and no resource holds that right by default, so the ace objects were never actually created. They are registered through msk_core now and the script checks up front whether it is allowed",
+      "- Requires msk_core 3.3.0 (MSK.AddRawAce, MSK.CanAddAce). Update msk_core along with this script and make sure your server.cfg has the msk_core ace lines, e.g. add_ace resource.msk_core command.add_ace allow",
+      "- Changed files [fxmanifest.lua, server/admin/permissions.lua, server/admin/boot.lua, server/admin/api.lua]"
+    ]
+  },
+  {
     "version": "5.4.1",
     "changelogs": [
       "- Changed the impound lock for AdvancedParking (Settings > Impounds): instead of reading AdvancedParking's vehicles_parking table, msk_garage now asks AdvancedParking itself through its serverside exports GetVehiclePosition/GetVehiclePositions, the same ones the impound list already uses for the tracking waypoint. In-game behaviour stays exactly the same",
@@ -241,13 +251,13 @@
       "- Changed visn_are Support",
       "- If not AdvancedParking active or not used, the vehicle will be deleted if found when Park Out on Impounds (fixed duplicate vehicles)"
     ]
-  }, 
+  },
   {
     "version": "3.0.3",
     "changelogs": [
       "- Fixed a Bug in server_vehiclekeys.lua with latest Version of VehicleKeyChain"
     ]
-  }, 
+  },
   {
     "version": "3.0.2",
     "changelogs": [
@@ -262,7 +272,7 @@
       "- Fixed lagging ui and server thread hitch warning",
       "- Fixed Jaksam vehicle_keys"
     ]
-  }, 
+  },
   {
     "version": "3.0",
     "changelogs": [
@@ -274,7 +284,7 @@
       "- Updated Callbacks for msk_core",
       "- You will need latest msk_core Version!"
     ]
-  },  
+  },
   {
     "version": "2.2",
     "changelogs": [

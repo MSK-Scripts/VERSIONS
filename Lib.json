@@ -1,5 +1,14 @@
 [
   {
+    "version": "3.3.0",
+    "changelogs": [
+      "- Added MSK.AddRawAce and MSK.RemoveRawAce for ace objects that must not live under command. MSK.AddAce always prefixes with command., and since almost every server.cfg has 'add_ace group.admin command allow' and aces are inherited by their children, a permission object named command.something would be handed to everyone holding command. The raw variants pass principal and ace through exactly as given, so qbcore.admin stays qbcore.admin",
+      "- Called from a script, MSK.AddRawAce runs through msk_core's export, so add_ace is executed as resource.msk_core. FiveM checks that command against the resource running it, and import.lua compiles the modules into the consumer, so a script could never do this on its own. One line in your server.cfg now covers every MSK script",
+      "- Added MSK.CanAddAce() so a script can check up front whether msk_core may run add_ace, instead of firing commands that get refused with 'Access denied for command add_ace'",
+      "- Changed files [fxmanifest.lua, modules/Ace/server.lua]"
+    ]
+  },
+  {
     "version": "3.2.0",
     "changelogs": [
       "- Added MSK.GetVehicleFromPlate(plate), finds a spawned vehicle by its plate without needing coords or a radius, client and server",

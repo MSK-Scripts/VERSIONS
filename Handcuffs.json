@@ -1,5 +1,15 @@
 [
   {
+    "version": "3.0.1",
+    "changelogs": [
+      "- Fixed your team not being able to open the admin dashboard even with the group set in the server.cfg. A plain add_principal only makes a player a member of the group, it does not create the matching ace object the check was looking for, and on QBCore the principals are named qbcore.admin instead of group.admin with only qbcore.god linked to group.admin. The script now registers its own ace object per group on start and accepts both spellings, so add_principal ... group.mod and /addpermission 1 mod both work",
+      "- Fixed the group check on the Permissions tab reporting 'not found' for brand new groups",
+      "- Fixed the 'Access denied for command add_ace' spam on every server start. FiveM checks add_ace against the resource that runs it and no resource holds that right by default, so the ace objects were never actually created. They are registered through msk_core now and the script checks up front whether it is allowed",
+      "- Requires msk_core 3.3.0 (MSK.AddRawAce, MSK.CanAddAce). Update msk_core along with this script and make sure your server.cfg has the msk_core ace lines, e.g. add_ace resource.msk_core command.add_ace allow",
+      "- Changed files [fxmanifest.lua, server/admin/permissions.lua, server/admin/boot.lua, server/admin/api.lua]"
+    ]
+  },
+  {
     "version": "3.0.0",
     "changelogs": [
       "- Full rewrite: QBCore support next to ESX, MySQL via oxmysql instead of database.json (migrated automatically), statebags and server-side validation for every action.",
