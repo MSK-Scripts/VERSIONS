@@ -1,5 +1,16 @@
 [
   {
+    "version": "3.3.1",
+    "changelogs": [
+      "- Fixed MSK.Call on Linux servers. Internally the core asked its module loader for 'timeout' while the folder is modules/Timeout. Windows ignores case, so this only ever showed up on Linux, where the load returned nothing and every MSK.Call aborted",
+      "- Scripts that reach MSK.Call through the module were never affected, only the core-internal path",
+      "- The error message behind that lookup no longer claims the module is 'not yet ported'. Timeout has shipped since v3.0.0, so the old wording sent people looking for a missing feature instead of a failed load",
+      "- The eager-loading example in import.lua and the module examples in init/shared.lua used lowercase names that match no folder. They now show the real spelling and state that the name is case-sensitive on Linux",
+      "- Replace fxmanifest.lua, init/shared.lua and import.lua to update",
+      "- Changed files [fxmanifest.lua, init/shared.lua, import.lua, Readme.md]"
+    ]
+  },
+  {
     "version": "3.3.0",
     "changelogs": [
       "- Added MSK.AddRawAce and MSK.RemoveRawAce for ace objects that must not live under command. MSK.AddAce always prefixes with command., and since almost every server.cfg has 'add_ace group.admin command allow' and aces are inherited by their children, a permission object named command.something would be handed to everyone holding command. The raw variants pass principal and ace through exactly as given, so qbcore.admin stays qbcore.admin",
