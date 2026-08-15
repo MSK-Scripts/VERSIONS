@@ -1,5 +1,14 @@
 [
   {
+    "version": "5.4.3",
+    "changelogs": [
+      "- Fixed vehicles coming out of the garage and the impound without their tuning: mods, colours, wheels and extras were back to stock while the saved data was fine the whole time. A park-out vehicle is created with CreateVehicleServerSetter, so the entity belongs to the server for the first few hundred milliseconds, and the natives behind ESX.Game.SetVehicleProperties only take effect on the client that owns it. The properties were written in exactly that window and were silently dropped. Whether it worked depended on how fast the ownership migrated, which is why it hit some players and not others",
+      "- The script now takes control of the vehicle first and writes the properties afterwards, then reads the values back (colours, wheel type, turbo, every mod slot) and writes them again if something did not stick, for up to a second, because the game keeps normalising a freshly created vehicle for a few more frames. Garage and impound share this code path, both are fixed",
+      "- Nothing needs to be repaired in the database, vehicles that used to come out stock have their tuning back with this update. No rebuild, no database change",
+      "- Changed files [fxmanifest.lua, client/vehicles.lua]"
+    ]
+  },
+  {
     "version": "5.4.2",
     "changelogs": [
       "- Fixed admins not being able to open the dashboard even with the group set in the server.cfg. A plain add_principal only makes a player a member of the group, it does not create the matching ace object the check was looking for, and on QBCore the principals are named qbcore.admin instead of group.admin with only qbcore.god linked to group.admin. The script now registers its own ace object per group on start and accepts both spellings, so add_principal ... group.mod and /addpermission 1 mod both work",
