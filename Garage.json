@@ -1,5 +1,16 @@
 [
   {
+    "version": "5.4.4",
+    "changelogs": [
+      "- Fixed the resource refusing to start on servers that already had a garage column, with 'Data truncated for column garage at row 2' in the console. The boot migration adds the columns msk_garage needs and then tightens garage to varchar(60) NOT NULL. On a fresh database that works, but if the column already existed, from msk_garage v3 or another garage script, the first step skips it and leaves its old definition alone, so it still allows NULL and is sometimes wider than 60 characters. Tightening it afterwards then fails on those rows",
+      "- Whether that aborted the start or passed silently came down to sql_mode. With STRICT_TRANS_TABLES, the MariaDB default since 10.2.4, it is an error, without it the value was quietly turned into an empty string and you only got a warning. An older database on a strict server is why this hit some servers and not others",
+      "- msk_garage now cleans the column up while the old, looser definition is still in place: NULL and empty values get your Config.DefaultGarage, values longer than 60 characters are shortened to fit, and only then is the column tightened. On a healthy database the cleanup matches no rows and costs nothing. It runs on every start, so a database that breaks later repairs itself",
+      "- Moved the vehicle type table from server/vehicles.lua to server/main.lua. Pure reorganisation, the mapping from the type column to the CreateVehicleServerSetter type is unchanged",
+      "- No SQL to run by hand, no rebuild and no database change. Replace the files and restart the resource",
+      "- Changed files [fxmanifest.lua, server/main.lua, server/vehicles.lua]"
+    ]
+  },
+  {
     "version": "5.4.3",
     "changelogs": [
       "- Fixed vehicles coming out of the garage and the impound without their tuning: mods, colours, wheels and extras were back to stock while the saved data was fine the whole time. A park-out vehicle is created with CreateVehicleServerSetter, so the entity belongs to the server for the first few hundred milliseconds, and the natives behind ESX.Game.SetVehicleProperties only take effect on the client that owns it. The properties were written in exactly that window and were silently dropped. Whether it worked depended on how fast the ownership migrated, which is why it hit some players and not others",
