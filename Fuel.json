@@ -1,5 +1,15 @@
 [
     {
+        "version": "1.3.0",
+        "changelogs": [
+            "- Requires msk_core 4.0.0 or newer, update both together",
+            "- The framework group for dashboard access is read on QBCore and Qbox too. It went through xPlayer.getGroup(), which only ESX has, so an admin without the matching add_principal line was refused on the other two",
+            "- Fixed that the QBCore only fallback ran on every framework. Its early return could never fire, because MSK.Bridge used to resolve to a function in a consumer resource and reading MSK.Bridge.Framework raised an error instead",
+            "- Replace fxmanifest.lua and server/admin/permissions.lua to update",
+            "- Changed files [fxmanifest.lua, server/admin/permissions.lua]"
+        ]
+    },
+    {
         "version": "1.2.0",
         "changelogs": [
             "- Fuel stations are businesses now: 30 named stations with a zone, own stock, own price and an owner, seeded from config.stations.lua",

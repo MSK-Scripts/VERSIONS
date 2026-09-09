@@ -1,5 +1,18 @@
 [
     {
+        "version": "3.2.0",
+        "changelogs": [
+            "- Requires msk_core 4.0.0 or newer, update both together",
+            "- Runs on ESX, QBCore and Qbox now. es_extended is no longer a dependency, ox_lib takes its place, and the resource used to refuse to start without ESX",
+            "- Every database access goes through MSK.VehicleStore. The old queries wrote owned_vehicles with ESX column names and would not have found a single row on QBCore or Qbox, which use player_vehicles with the properties in mods",
+            "- Vehicle properties are read and written in the format of the running framework. ESX has its own layout, QBCore and Qbox use the one from ox_lib, and handing the wrong one to a garage produces a vehicle without mods or none at all",
+            "- Spawning and deleting no longer go through ESX.Game. On anything but ESX the vehicle is created with lib.requestModel and CreateVehicle",
+            "- Usable items are registered through MSK.RegisterItem, which covers all three frameworks in one call",
+            "- Replace the whole resource to update",
+            "- Changed files [fxmanifest.lua, client/main.lua, server/main.lua, server/items.lua, server/admin/api.lua, server/admin/permissions.lua]"
+        ]
+    },
+    {
         "version": "3.1.1",
         "changelogs": [
             "- Fixed admins not being able to open the dashboard even with the group set in the server.cfg. A plain add_principal only makes a player a member of the group, it does not create the matching ace object the check was looking for, and on QBCore the principals are named qbcore.admin instead of group.admin with only qbcore.god linked to group.admin. The script now registers its own ace object per group on start and accepts both spellings, so add_principal ... group.mod and /addpermission 1 mod both work",

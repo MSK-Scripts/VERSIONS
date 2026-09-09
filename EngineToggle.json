@@ -1,5 +1,19 @@
 [
   {
+    "version": "4.6.0",
+    "changelogs": [
+      "- Requires msk_core 4.0.0 or newer, update both together",
+      "- Added Qbox support. Qbox uses the same player_vehicles layout as QBCore, verified against qbx_vehicles/vehicles.sql",
+      "- Framework detection is gone from this resource. It sat at the top of three files, once per file, and knew only ESX and QBCore. msk_core has already detected the framework when these files load",
+      "- Config.Framework is no longer read anywhere. The line stays in config.lua so an existing config does not break, but changing it has no effect. Pin the framework in msk_core instead",
+      "- Usable items are registered through MSK.RegisterItem, which covers all three frameworks in one call",
+      "- The police alert walks MSK.GetPlayers(), one list with the same fields on every framework",
+      "- Fixed that removing the lockpick item ran against a nil player when the lookup failed",
+      "- Replace the whole resource to update",
+      "- Changed files [fxmanifest.lua, config.lua, client/main.lua, server/main.lua, server/hotwire.lua]"
+    ]
+  },
+  {
     "version": "4.5.0",
     "changelogs": [
       "- Security: key handout while lockpicking is now authorized serverside (removed the open addTempKey event)",

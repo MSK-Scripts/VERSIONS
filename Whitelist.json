@@ -1,5 +1,24 @@
 [
   {
+    "version": "2.1.0",
+    "changelogs": [
+      "- Requires msk_core 4.0.0 or newer, update both together",
+      "- Runs on QBCore and Qbox now. es_extended is no longer a dependency, the resource used to refuse to start without it",
+      "- Added Config.Commands.ausreise.startMoney. The balance clear_money sets is configured here now instead of being read from ESX.GetConfig().StartingAccountMoney. Add the block to your config.lua, without it clear_money does nothing",
+      "- The character table is resolved instead of hardcoded: users/identifier on ESX, players/citizenid on QBCore and Qbox",
+      "- /einreise and /ausreise run through MSK.RegisterCommand, same behaviour but on every framework",
+      "- The login and logout handlers listen to msk_core:playerLoaded and msk_core:playerLogout, bound server-local so no client can fire them with a foreign player id",
+      "- The appearance after admin mode is restored through whichever resource runs: illenium-appearance, qb-clothing or esx_skin with skinchanger",
+      "- Fixed that /rein crashed when admin_outside is set to last_position, it called the ESX method getCoords that no longer exists",
+      "- Fixed that /raus teleported into nowhere when no position had been stored",
+      "- Fixed that both admin commands ran into a nil player when typed in the server console",
+      "- Fixed that the logout and drop handlers indexed a player that was already gone, which let the admin counter drift upward over a session",
+      "- Fixed that the isNew column was added to the wrong table on QBCore and Qbox, where every player counted as not new",
+      "- Replace the whole resource to update, and add startMoney to your config.lua",
+      "- Changed files [fxmanifest.lua, config.lua, client/main.lua, server/main.lua, server/functions.lua]"
+    ]
+  },
+  {
     "version": "2.0.2",
     "changelogs": [
       "- Fixed Error: `attempt to call a nil value (method 'match')`"

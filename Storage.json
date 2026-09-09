@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.3.0",
+    "changelogs": [
+      "- Requires msk_core 4.0.0 or newer, update both together",
+      "- Runs on QBCore and Qbox now. es_extended is no longer a dependency, the resource used to refuse to start without it",
+      "- Society payouts follow the banking resource instead of the framework: Renewed-Banking, qb-banking, qb-management or esx_addonaccount. The old code triggered esx_addonaccount directly, so the payout silently did nothing on any other setup",
+      "- The stash id no longer reads ESX.PlayerData on the client, the identifier comes from MSK.GetPlayerData()",
+      "- Fixed that the monthly rent could go through twice and only be charged once. For an offline player the row was read, calculated in Lua and written back, which loses one of two deductions in the same moment. MSK.Offline.RemoveBank does it in one statement with a WHERE guard",
+      "- Fixed that buying and upgrading checked the balance and then deducted blindly. RemoveMoney refuses when the balance is short and the player is told",
+      "- Replace the whole resource to update",
+      "- Changed files [fxmanifest.lua, integration/client_integration.lua, server/server.lua, server/server_functions.lua]"
+    ]
+  },
+  {
     "version": "1.2.3",
     "changelogs": [
       "- Fixed that icons are not loading in the ui",

@@ -1,5 +1,30 @@
 [
   {
+    "version": "4.0.0",
+    "changelogs": [
+      "- Breaking release. The framework bridge was rewritten, read the migration notes before updating",
+      "- Added Qbox as a framework of its own. A Qbox server used to land in the QBCore branch because qbx_core declares provide 'qb-core', which flattened multijob to a single job. Detection now asks for every framework under its own resource name and checks qbx_core first",
+      "- MSK.GetPlayer(id) returns the same fields on ESX, QBCore and Qbox, and takes a server id, an identifier or a table. Job and gang look the same everywhere, and player.jobs is filled on every framework",
+      "- The player object has working methods again. They are built inside your resource now, because functions do not survive an export, so every method used to arrive as nil",
+      "- MSK.Bridge is a real table in a consumer. It used to become a function, so MSK.Bridge.Framework.Type raised 'attempt to index a function value'",
+      "- Fixed the load and logout events, which never fired at all. MSK.LoadedPlayers stayed empty on every framework and anything waiting for msk_core:playerLoaded waited forever",
+      "- Fixed a single unban disabling the whole ban system, and deleting a cron job disabling cron. Both removed an array entry by setting it to nil, which left a hole the loops fell into",
+      "- Fixed any client being able to read any other player's full data (cash, bank, metadata, licence) through the msk_core:getPlayerData callback",
+      "- Fixed sex being inverted on QBCore and Qbox, the client bridge for QBCore reading a field that does not exist, and the client player mirror freezing when an ambulance script answered slowly",
+      "- Fixed a closed input or numpad leaving its caller waiting forever, and the menu no longer stops accepting keys after reopening",
+      "- Framework and inventory are separate now. All item handling lives in inventories/, and CanCarryItem answers nil when the inventory cannot check instead of promising space",
+      "- Company accounts follow the banking resource (Renewed-Banking, qb-banking, qb-management, esx_addonaccount) instead of the framework",
+      "- Removed ox_core support. Config.Framework = 'OXCore' now stops with an explicit message",
+      "- Added MSK.GetJobs() and MSK.GetGangs(), clientside and serverside. Every framework keeps its list somewhere else (ESX.GetJobs, QBCore.Shared.Jobs, a Qbox export), the grades come back normalised and sorted. Empty gangs on ESX, which has none",
+      "- Added MSK.VehicleStore, one shape over the framework's owned vehicle table: GetSchema, GetByPlate, CountByPlate, Insert, Update, Delete, ClearJob and a paginated Browse. Vehicle properties stay in the format the framework wrote them in, because every other garage on the server reads the same column",
+      "- MSK.VehicleStore adds the job and type columns QBCore and Qbox do not have, with ALTER TABLE ADD COLUMN IF NOT EXISTS, so existing rows stay untouched",
+      "- Added MSK.Offline.GetPlayerTable(), the character table of the running framework plus its key column (users/identifier on ESX, players/citizenid on QBCore and Qbox)",
+      "- Added player.ClearInventory() and a clear entry in every inventory adapter, answering nil when the inventory cannot do it",
+      "- Replace the whole resource to update",
+      "- Changed files [fxmanifest.lua, config.lua, aliases.lua, init/, bridge/, inventories/, modules/]"
+    ]
+  },
+  {
     "version": "3.3.1",
     "changelogs": [
       "- Fixed MSK.Call on Linux servers. Internally the core asked its module loader for 'timeout' while the folder is modules/Timeout. Windows ignores case, so this only ever showed up on Linux, where the load returned nothing and every MSK.Call aborted",
