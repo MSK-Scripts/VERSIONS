@@ -1,5 +1,19 @@
 [
   {
+    "version": "3.1.0",
+    "changelogs": [
+      "- Requires msk_core 4.0.0 or newer, update both together",
+      "- Security: msk_core:playerLogout was registered as a net event on the server. The event is server-local, so any client could fire it with a foreign player id and clear somebody else's handcuff state",
+      "- Fixed that the logout handler had never run once. Nothing in msk_core 3.x ever triggered that event, so a character switch left the handcuff state behind. A disconnect was always covered by playerDropped",
+      "- Fixed that on Qbox every player counted as unemployed in the client side pre-checks, and that the job dropdown in the dashboard stayed empty there",
+      "- Fixed that the framework group was only ever resolved on ESX. It went through getGroup(), a method QBCore and Qbox do not have",
+      "- Fixed that the QBCore only fallback ran on every framework, because its early return could never fire",
+      "- The client restore listens to one event instead of three. The two framework events were a workaround for msk_core 3.x and fired the restore up to three times per spawn",
+      "- Replace the whole resource to update",
+      "- Changed files [fxmanifest.lua, client/main.lua, client/actions.lua, server/main.lua, server/admin/api.lua, server/admin/permissions.lua]"
+    ]
+  },
+  {
     "version": "3.0.1",
     "changelogs": [
       "- Fixed your team not being able to open the admin dashboard even with the group set in the server.cfg. A plain add_principal only makes a player a member of the group, it does not create the matching ace object the check was looking for, and on QBCore the principals are named qbcore.admin instead of group.admin with only qbcore.god linked to group.admin. The script now registers its own ace object per group on start and accepts both spellings, so add_principal ... group.mod and /addpermission 1 mod both work",

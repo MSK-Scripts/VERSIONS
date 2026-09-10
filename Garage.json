@@ -1,5 +1,21 @@
 [
   {
+    "version": "5.6.0",
+    "changelogs": [
+      "- Requires msk_core 4.0.0 or newer, update both together",
+      "- Runs on ESX, QBCore and Qbox now. es_extended is no longer a dependency, ox_lib takes its place, and the resource used to refuse to start without ESX",
+      "- The vehicle table is resolved instead of hardcoded: owned_vehicles keyed by owner on ESX, player_vehicles keyed by citizenid on QBCore and Qbox, where the stored flag is state and the properties live in mods. Config.MySQL is filled from MSK.VehicleStore on start and every query reads the names from there",
+      "- Vehicle properties are read and written in the format of the running framework. Handing an ox_lib table to an ESX garage produces a car without mods, or none at all",
+      "- The client no longer keeps its own copy of the player data. msk_core keeps it and raises playerLoaded, playerLogout, setJob and onPlayerDeath on every framework",
+      "- Fixed that park-in was broken. The UPDATE built its statement with two placeholders but passed only one value to format, which raises an error before the query is ever sent",
+      "- Fixed that job vehicles were never purged on QBCore or Qbox. The handler hung on esx:setJob, an event that only exists on ESX",
+      "- Fixed that the framework group for the dashboard was only ever resolved on ESX, through getGroup(), a method QBCore and Qbox do not have",
+      "- Fixed that a vehicle row with unreadable property JSON took park-out and the impound release down",
+      "- Replace the whole resource to update",
+      "- Changed files [fxmanifest.lua, config/static.lua, config/settings.lua, shared/utils.lua, client/, server/]"
+    ]
+  },
+  {
     "version": "5.5.0",
     "changelogs": [
       "- Added private garages. A garage becomes private the moment it has an owner, and from then on only that owner and the people they let in can park there. A garage without an owner behaves exactly as before, so a server that ignores this feature will not notice it at all",

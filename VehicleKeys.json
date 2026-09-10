@@ -1,5 +1,23 @@
 [
     {
+        "version": "3.4.0",
+        "changelogs": [
+            "- Requires msk_core 4.0.0 or newer, update both together",
+            "- Security: money could be created out of nothing when selling a vehicle. Both framework branches credited the seller before taking the money from the buyer, so a deduction that failed left the seller paid and the buyer untouched. The money is taken first now and only a successful deduction credits the seller",
+            "- Added Qbox support. Qbox uses the same player_vehicles and players layout as QBCore, verified against qbx_core.sql and qbx_vehicles/vehicles.sql",
+            "- Fixed that nothing was ever set up for a player on ESX. The keyring item and the conversion of the old storage method hung on esx:playerLoaded and on two QBCore client events, the resource listens to msk_core:playerLoaded now",
+            "- Fixed that the load and logout handlers were net events. Server side those events are local, and as net events any client could fire them with a foreign player id",
+            "- Fixed that the job rank was read as grade_name on ESX and grade.name on QBCore, and existed on neither under Qbox. It is gradeName everywhere now",
+            "- Fixed that GetPlayerVehicles returned an empty list and offline players showed up as their raw identifier in the dashboard. Both branched on Config.Framework, which msk_core detects now, so the value stayed at AUTO and every branch was skipped",
+            "- Config.Framework in config/static.lua is no longer read. The line stays so an existing config does not break, but changing it has no effect",
+            "- Framework detection is gone from this resource, msk_core has already done it when these files load",
+            "- The client no longer keeps its own copy of the player data, msk_core keeps it. Use MSK.GetPlayerData()",
+            "- Usable items are registered through MSK.RegisterItem, which covers all three frameworks in one call",
+            "- Replace the whole resource to update",
+            "- Changed files [fxmanifest.lua, config/static.lua, client/main.lua, client/encrypted.lua, server/main.lua, server/functions.lua, server/storage.lua, server/admin/api.lua, server/admin/permissions.lua]"
+        ]
+    },
+    {
         "version": "3.3.3",
         "changelogs": [
             "- Fixed QBCore and Qbox staff not being able to open the admin dashboard even with correct permissions in the server.cfg. QBCore names its group principals qbcore.admin instead of group.admin and only links qbcore.god to group.admin, so everyone below god level failed the check. The script now registers its own ace object per group and accepts both spellings.",
