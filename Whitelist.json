@@ -1,5 +1,15 @@
 [
   {
+    "version": "2.1.1",
+    "changelogs": [
+      "- Requires msk_core 4.1.0 or newer, update both together",
+      "- Notifications use the table form of msk_core 4.1.0, so the deprecation warnings are gone. If you keep your own config, copy the new Config.Notification lines",
+      "- The msk_core version is checked on start and an error is logged in the server console when it is too old",
+      "- Replace fxmanifest.lua, config.lua and server/versionchecker.lua to update",
+      "- Changed files [fxmanifest.lua, config.lua, server/versionchecker.lua]"
+    ]
+  },
+  {
     "version": "2.1.0",
     "changelogs": [
       "- Requires msk_core 4.0.0 or newer, update both together",
