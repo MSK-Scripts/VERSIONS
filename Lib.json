@@ -1,5 +1,24 @@
 [
   {
+    "version": "4.1.0",
+    "changelogs": [
+      "- Big feature release, nothing breaks. Old call forms keep working and log a deprecation warning once per resource",
+      "- Added new UI: MSK.Input.Dialog with eleven field types, MSK.Alert, MSK.Radial, MSK.Skillcheck, MSK.Progress.Circle, MSK.Clipboard and a settings menu for players (language, notification position, sound)",
+      "- Added client modules MSK.Zones with an in-game /zoneCreator, MSK.Keybind, MSK.Controls, MSK.Dui, MSK.Marker, MSK.Anim and MSK.VehicleProperties",
+      "- Added server modules MSK.Logger (Loki, Datadog, Fivemanage), MSK.Events, MSK.Files, txAdmin messages as MSK notifications and MSK.SpawnVehicle(model, coords, options)",
+      "- Added shared modules MSK.Class, Array, Selector, Timer, Grid, Print, Locale, Require, Hook and MSK.Cache, plus new Math, Table, String, Vector and Request helpers",
+      "- Added MSK.TriggerAwait with its own timeout, MSK.OnPlayer(key, cb), cron expressions (MSK.Cron.Schedule), maxDistance for the GetClosest functions, GetNearby* entities, Points nearby callback and Scaleform render targets",
+      "- Notification, Progress, TextUI and Numpad take a table now, with icons, positions, props, updates while open and more",
+      "- Security: the numpad code no longer reaches the NUI, callbacks only accept an answer from the player they asked, and the server validates everything a client writes into the player mirror",
+      "- Security: ban no longer matches by name, the ace callback only answers for the caller, and a command alias no longer loses restricted",
+      "- Changed MSK.Request loaders to a 30 s default timeout, Request.Raycast returns the entity or false, Cron.Create returns the job id, Math.Round rounds halves away from zero, String.Split splits on the whole separator",
+      "- Fixed server-side Input and Numpad giving up after 5 seconds, frozen menus, cron jobs that killed the scheduler, points and TextUI surviving a resource stop, and many smaller bugs",
+      "- New config blocks Config.Radial, Config.Settings, Config.ZoneCreator and Config.TxAdmin",
+      "- Replace the whole resource to update",
+      "- Changed files [fxmanifest.lua, Readme.md, config.lua, import.lua, aliases.lua, init/, modules/, web/dist/]"
+    ]
+  },
+  {
     "version": "4.0.0",
     "changelogs": [
       "- Breaking release. The framework bridge was rewritten, read the migration notes before updating",
