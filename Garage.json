@@ -1,5 +1,17 @@
 [
   {
+    "version": "5.6.1",
+    "changelogs": [
+      "- Requires msk_core 4.1.0 or newer, update both together",
+      "- Notifications use the table form of msk_core 4.1.0, so the deprecation warnings are gone. If you keep your own config, copy the new Config.Notification lines",
+      "- The msk_core version is checked on start and an error is logged in the server console when it is too old",
+      "- Config.openTextUI uses the table form of MSK.TextUI.Show",
+      "- Fixed that Config.closeTextUI called MSK.TextUI.Close(), which does not exist. Hiding the TextUI raised an error, it calls MSK.TextUI.Hide() now",
+      "- Replace fxmanifest.lua, config/static.lua and server/versionchecker.lua to update",
+      "- Changed files [fxmanifest.lua, config/static.lua, server/versionchecker.lua]"
+    ]
+  },
+  {
     "version": "5.6.0",
     "changelogs": [
       "- Requires msk_core 4.0.0 or newer, update both together",
