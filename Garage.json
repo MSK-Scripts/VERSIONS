@@ -1,5 +1,16 @@
 [
   {
+    "version": "5.7.0",
+    "changelogs": [
+      "- Fixed that vehicles lost their tuning when a slow PC parked them in again. The client re-applies the tuning for up to 30 seconds and confirms it to the server, until then park-in keeps the saved tuning from the database",
+      "- Fixed that a failed park-out from the impound moved the car into the garage with the fee refunded. It stays in the impound now",
+      "- New Config.spawnMode = 'server' | 'client'. 'client' lets the player's PC spawn the car so the tuning lands at once, the server checks owner, model and position. Selectable in the dashboard, does not work with sv_entityLockdown strict",
+      "- Vehicle images from JG Vehicle Studio or a CDN via Config.GetVehicleImage in config/static.lua. JG is used automatically, the default CDN is cdn.msk-scripts.de",
+      "- The NUI changed, replace the html folder together with the other files. No database change",
+      "- Changed files [fxmanifest.lua, client/nui.lua, client/vehicles.lua, config/settings.lua, config/static.lua, server/admin/api.lua, server/api.lua, server/vehicles.lua, shared/admin_perms.lua, vehicle_images/A_README.md, html/]"
+    ]
+  },
+  {
     "version": "5.6.1",
     "changelogs": [
       "- Requires msk_core 4.1.0 or newer, update both together",
